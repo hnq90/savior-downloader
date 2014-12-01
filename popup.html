@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title></title>
+	<link rel="stylesheet" href="css/popup.css">
+</head>
+<body class="body">
+	<div id="one-click-block" hidden></div>
+	<div id="welcome"></div>
+	<div id="downloads" hidden></div>
+	<script type="text/javascript" src="libs/mustache.js"></script>
+	<script type="text/javascript" src="popup/popup.js"></script>
+	<script type="text/mustache-template" id="list-template">
+		<div class="downloads-list">
+			{{#downloads}}
+			<h1>{{i18n_type}}</h1>
+			<ul>
+				{{#media}}
+				{{>media_template}}
+				{{/media}}
+			</ul>
+			{{/downloads}}
+			{{^downloads}}
+			<div class="no-media">
+				{{i18n_no_media_found}}
+			</div>
+			{{/downloads}}
+		</div>
+
+		<div id="one-click">
+			<label id="one-click-label">
+				<input type="checkbox" class="j-one-click" {{#is_single}}checked{{/is_single}}>
+				{{i18n_one_click}}
+			</label>
+			<label id="quality-level">
+				{{i18n_preferred_quality}}
+				<select id="quality-level-selection">
+					{{#quality_levels}}
+					<option {{#is_checked}}selected{{/is_checked}} value="{{name}}">{{i18n_ql_title}}</option>
+					{{/quality_levels}}
+				</select>
+			</label>
+			<span id="error-message">{{i18n_download_failed}}</span>
+		</div>
+		<a href="#" id="close-popup">×</a>
+	</script>
+	<script type="text/mustache-template" id="welcome-template">
+		<div class="welcome">
+			<a href="#" id="close-popup">×</a>
+			<h1>{{i18n_welcome_title}}</h1>
+			<div class="welcome-text">{{i18n_welcome_text}}</div>
+			<div class="welcome-action">
+				<a href="#" class="btn" id="welcome-button">{{i18n_welcome_button}}</a>
+			</div>
+		</div>
+	</script>
+	<script type="text/mustache-template" id="one-click-template">
+		<span class="one-click-starting">{{i18n_starting_download}}</span>
+		{{#media}}
+			<span class="one-click-format label label-info">{{ext}} {{#quality}}, {{quality}}{{/quality}}</span>
+			<span class="one-click-title-container">
+				<span class="one-click-title">
+				 "{{title}}"
+				 </span>
+			 </span>
+		{{/media}}
+	</script>
+</body>
+</html>

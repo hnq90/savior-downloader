@@ -1,0 +1,128 @@
+{
+	"options_title": {
+		"message": "Tùy chọn",
+		"description": "Options page title"
+	},
+	"options_show_on_page_buttons": {
+		"message": "Hiện nút Tải xuống bên cạnh tập tin có thể tải về",
+		"description": "Show on page controls label"
+	},
+	"options_one_click": {
+		"message": "Tải xuống sau một cú nhấp chuột",
+		"description": "Download in one click checkbox label"
+	},
+	"options_min_stream_size": {
+		"message": "Hãy bỏ qua luồng nhỏ hơn",
+		"description": "Min stream size label"
+	},
+	"options_save_and_close": {
+		"message": "Lưu và đóng",
+		"description": "Save and close button"
+	},
+
+	"popup_check_label": {
+		"message": "Chọn:",
+		"description": "Label to check all or none"
+	},
+	"popup_check_all": {
+		"message": "tất cả",
+		"description": "Text for check all"
+	},
+	"popup_check_none": {
+		"message": "bỏ chọn",
+		"description": "Text for check none"
+	},
+	"popup_download_selected": {
+		"message": "Tải xuống đã chọn",
+		"description": "Download selected button text"
+	},
+	"popup_download": {
+		"message": "Tải xuống",
+		"description": "Download button text"
+	},
+	"popup_download_starting": {
+		"message": "Vui lòng chờ...",
+		"description": "Wait for download button text"
+	},
+	"popup_preferred_quality_hint": {
+		"message": "Chất lượng:",
+		"description": "Preferred media quality as a hint for automatic download."
+	},
+	"popup_preferred_quality": {
+		"message": "Chất lượng phương tiện ưa thích",
+		"description": "Preferred media quality select label"
+	},
+	"popup_one_click": {
+		"message": "Tải xuống sau một cú nhấp chuột",
+		"description": "Download in one click checkbox label"
+	},
+	"popup_no_media_found": {
+		"message": "Xin lỗi, không tìm thấy phương tiện nào.",
+		"description": "Message shows in popup if there is no media to display."
+	},
+	"popup_how_many_media_found": {
+		"message": "$number$  phương tiện được tìm thấy",
+		"description": "Text saying how many media was found.",
+		"placeholders": {
+			"number": {
+				"content": "$1",
+				"example": 42
+			}
+		}
+	},
+	"popup_download_failed": {
+		"message": "Khởi động download không thành công. Hãy sử dụng định dạng và chất lượng khác.",
+		"description": "Message is shown if download could not be started."
+	},
+
+	"popup_welcome_title": {
+		"message": "Đã tìm thấy phương tiện có thể tải xuống!",
+		"description": "Welcome popup title"
+	},
+
+	"popup_welcome_text": {
+		"message": " Nếu bạn nhìn thấy biểu tượng này trên thanh địa chỉ, có nghĩa là có nội dung truyền thông trên trang web (như âm nhạc, đoạn phim ca nhạc hoặc phim), có thể được tải về.",
+		"description": "Welcome popup text"
+	},
+
+	"popup_welcome_button": {
+		"message": "Thử ngay!",
+		"description": "Try it now button text"
+	},
+
+	"popup_starting_download": {
+		"message": "Bắt đầu tải xuống",
+		"description": "Starting one-click download text"
+	},
+
+	"ql_high": {
+		"message": "Cao",
+		"description": "High media quality title"
+	},
+	"ql_medium": {
+		"message": "Trung bình",
+		"description": "Medium media quality title"
+	},
+	"ql_low": {
+		"message": "Thấp",
+		"description": "Low media quality title"
+	},
+
+	"media_fields_type_audio": {
+		"message": "Âm thanh",
+		"description": "Audio media type"
+	},
+	"media_fields_type_video": {
+		"message": "Phim",
+		"description": "Video media type"
+	},
+	"media_fields_type_stream": {
+		"message": "Stream",
+		"description": "Stream media type"
+	},
+
+	"page_action_title": {
+		"message": "Đã tìm thấy phương tiện có thể tải xuống!",
+		"description": "Tooltip on pageAction hover"
+	}
+}

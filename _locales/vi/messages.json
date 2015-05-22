@@ -11,6 +11,10 @@
 		"message": "Tải xuống sau một cú nhấp chuột",
 		"description": "Download in one click checkbox label"
 	},
+	"options_prefer_last_quality": {
+		"message": "Ghi nhớ chất lượng tập tin được chọn của lần gần nhất",
+		"description": "Prefer last quality as initial quality selector checkbox label"
+	},
 	"options_min_stream_size": {
 		"message": "Hãy bỏ qua luồng nhỏ hơn",
 		"description": "Min stream size label"
@@ -33,11 +37,11 @@
 		"description": "Text for check none"
 	},
 	"popup_download_selected": {
-		"message": "Tải xuống đã chọn",
+		"message": "TẢI XUỐNG ĐÃ CHỌN",
 		"description": "Download selected button text"
 	},
 	"popup_download": {
-		"message": "Tải xuống",
+		"message": "TẢI XUỐNG",
 		"description": "Download button text"
 	},
 	"popup_download_starting": {
@@ -61,7 +65,7 @@
 		"description": "Message shows in popup if there is no media to display."
 	},
 	"popup_how_many_media_found": {
-		"message": "$number$  phương tiện được tìm thấy",
+		"message": "$number$ phương tiện được tìm thấy",
 		"description": "Text saying how many media was found.",
 		"placeholders": {
 			"number": {

@@ -11,12 +11,12 @@
 		<h1>{{i18n_options_title}}</h1>
 		<div class="form">
 			<label class="checkbox">
-				<input type="checkbox" value="" id="on-page-buttons" {{#onPageButtonsEnabled}}checked{{/onPageButtonsEnabled}}>
+				<input type="checkbox" id="on-page-buttons" {{#onPageButtonsEnabled}}checked{{/onPageButtonsEnabled}}>
 				{{i18n_show_on_page_buttons}}
 			</label>
 			<br>
 			<label class="checkbox">
-				<input type="checkbox" value="" id="one-click-download" {{#isOneClickEnabled}}checked{{/isOneClickEnabled}}>
+				<input type="checkbox" id="one-click-download" {{#isOneClickEnabled}}checked{{/isOneClickEnabled}}>
 				{{i18n_one_click}}
 			</label>
 			<br>
@@ -27,6 +27,11 @@
 				{{i18n_ql_title}}
 			</label>
 			{{/qLevels}}
+			<br>
+			<label class="checkbox">
+				<input type="checkbox" id="prefer-last-quality" {{#preferLastQuality}}checked{{/preferLastQuality}}>
+				{{i18n_prefer_last_quality}}
+			</label>
 
 			<label id="min-stream-label">{{i18n_min_stream_szie}}</label>
 			<input type="range" id="min-stream-size" min="0" max="3048000" value="{{minStreamSize}}" style="width: 300px">

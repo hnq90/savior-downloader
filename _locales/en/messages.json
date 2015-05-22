@@ -11,6 +11,10 @@
 		"message": "Download in one click",
 		"description": "Download in one click checkbox label"
 	},
+	"options_prefer_last_quality": {
+		"message": "Remember last chosen media quality",
+		"description": "Prefer last quality as initial quality selector checkbox label"
+	},
 	"options_min_stream_size": {
 		"message": "Ignore streams smaller than",
 		"description": "Min stream size label"
@@ -33,11 +37,11 @@
 		"description": "Text for check none"
 	},
 	"popup_download_selected": {
-		"message": "Download selected",
+		"message": "DOWNLOAD SELECTED",
 		"description": "Download selected button text"
 	},
 	"popup_download": {
-		"message": "Download",
+		"message": "DOWNLOAD",
 		"description": "Download button text"
 	},
 	"popup_download_starting": {

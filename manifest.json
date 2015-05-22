@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Savior",
-	"version": "0.8.4",
+	"version": "0.8.11",
 	"default_locale": "en",
 	"icons": {
 		"128": "images/64.png"

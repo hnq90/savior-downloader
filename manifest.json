@@ -1,47 +1,29 @@
 {
-	"manifest_version": 2,
-	"name": "Savior",
-	"version": "0.8.11",
-	"default_locale": "en",
-	"icons": {
-		"128": "images/64.png"
-	},
-	"background": {
-		"page": "background.html"
-	},
-	"minimum_chrome_version": "33",
-	"content_scripts": [
-		{
-			"run_at": "document_start",
-			"all_frames": false,
-			"matches": [
-				"<all_urls>"
-			],
-			"js": [
-				"content-script/content-script.js",
-				"libs/mustache.js"
-			]
-		}
-	],
-	"web_accessible_resources": [
-		"css/content-popup.css"
-	],
-	"options_page": "options.html",
-	"permissions": [
-		"tabs",
-		"webRequest",
-		"webRequestBlocking",
-		"webNavigation",
-		"metricsPrivate",
-		"downloads",
-		"storage",
-		"http://*/*",
-		"https://*/*"
-	],
-	"page_action": {
-		"default_icon": "images/action.png",
-		"default_title": "__MSG_page_action_title__",
-		"default_popup": "popup.html"
-	},
-	"update_url": "http://service.corom.vn/service/update2/crx"
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "content-script/content-script.js", "libs/mustache.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "icons": {
+      "128": "images/64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN4c7XRYXzpvahEEqCGsfZPXsl5kWXuv14AkytPEG4ok42OVda9wNV/GeZqYUO4IvW/3erMWGcnb+wyt2K9nds9aC+cKDf+eUU4vPAI8i/aWdPYe0G5tBlwitHJouftu9G5i6auE91IaXVbXkW5//zVHiB1v/MFunh4EkwfV9ONwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "44",
+   "name": "Savior",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "images/action.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_page_action_title__"
+   },
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking", "webNavigation", "metricsPrivate", "downloads", "storage", "http://*/*", "https://*/*" ],
+   "update_url": "http://service.corom.vn/service/update2/crx",
+   "version": "0.9.6",
+   "web_accessible_resources": [ "css/content-popup.css" ]
 }

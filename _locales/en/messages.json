@@ -1,133 +1,124 @@
 {
-	"options_title": {
-		"message": "Options",
-		"description": "Options page title"
-	},
-	"options_show_on_page_buttons": {
-		"message": "Show download button near downloadable media",
-		"description": "Show on page controls label"
-	},
-	"options_one_click": {
-		"message": "Download in one click",
-		"description": "Download in one click checkbox label"
-	},
-	"options_prefer_last_quality": {
-		"message": "Remember last chosen media quality",
-		"description": "Prefer last quality as initial quality selector checkbox label"
-	},
-	"options_min_stream_size": {
-		"message": "Ignore streams smaller than",
-		"description": "Min stream size label"
-	},
-	"options_save_and_close": {
-		"message": "Save and close",
-		"description": "Save and close button"
-	},
-
-	"popup_check_label": {
-		"message": "Check:",
-		"description": "Label to check all or none"
-	},
-	"popup_check_all": {
-		"message": "all",
-		"description": "Text for check all"
-	},
-	"popup_check_none": {
-		"message": "none",
-		"description": "Text for check none"
-	},
-	"popup_download_selected": {
-		"message": "DOWNLOAD SELECTED",
-		"description": "Download selected button text"
-	},
-	"popup_download": {
-		"message": "DOWNLOAD",
-		"description": "Download button text"
-	},
-	"popup_download_starting": {
-		"message": "Please wait...",
-		"description": "Wait for download button text"
-	},
-	"popup_preferred_quality_hint": {
-		"message": "Preferred quality:",
-		"description": "Preferred media quality as a hint for automatic download."
-	},
-	"popup_preferred_quality": {
-		"message": "Preferred media quality",
-		"description": "Preferred media quality select label"
-	},
-	"popup_one_click": {
-		"message": "Download in one click",
-		"description": "Download in one click checkbox label"
-	},
-	"popup_no_media_found": {
-		"message": "No media was found, sorry.",
-		"description": "Message shows in popup if there is no media to display."
-	},
-	"popup_how_many_media_found": {
-		"message": "$number$ media found",
-		"description": "Text saying how many media was found.",
-		"placeholders": {
-			"number": {
-				"content": "$1",
-				"example": 42
-			}
-		}
-	},
-	"popup_download_failed": {
-		"message": "Download has failed to start. Try with different format or quality.",
-		"description": "Message is shown if download could not be started."
-	},
-
-	"popup_welcome_title": {
-		"message": "Downloadable media found!",
-		"description": "Welcome popup title"
-	},
-
-	"popup_welcome_text": {
-		"message": "If you see this icon in the address-bar, this means that there is media content on the page (like music, video clips or movies), which can be downloaded.",
-		"description": "Welcome popup text"
-	},
-
-	"popup_welcome_button": {
-		"message": "Try it now!",
-		"description": "Try it now button text"
-	},
-
-	"popup_starting_download": {
-		"message": "Starting download",
-		"description": "Starting one-click download text"
-	},
-
-	"ql_high": {
-		"message": "High",
-		"description": "High media quality title"
-	},
-	"ql_medium": {
-		"message": "Medium",
-		"description": "Medium media quality title"
-	},
-	"ql_low": {
-		"message": "Low",
-		"description": "Low media quality title"
-	},
-
-	"media_fields_type_audio": {
-		"message": "Audio",
-		"description": "Audio media type"
-	},
-	"media_fields_type_video": {
-		"message": "Video",
-		"description": "Video media type"
-	},
-	"media_fields_type_stream": {
-		"message": "Stream",
-		"description": "Stream media type"
-	},
-
-	"page_action_title": {
-		"message": "Downloadable media found!",
-		"description": "Tooltip on pageAction hover"
-	}
-
+   "media_fields_type_audio": {
+      "description": "Audio media type",
+      "message": "Audio"
+   },
+   "media_fields_type_stream": {
+      "description": "Stream media type",
+      "message": "Stream"
+   },
+   "media_fields_type_video": {
+      "description": "Video media type",
+      "message": "Video"
+   },
+   "options_min_stream_size": {
+      "description": "Min stream size label",
+      "message": "Ignore streams smaller than"
+   },
+   "options_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Download in one click"
+   },
+   "options_prefer_last_quality": {
+      "description": "Prefer last quality as initial quality selector checkbox label",
+      "message": "Remember last chosen media quality"
+   },
+   "options_save_and_close": {
+      "description": "Save and close button",
+      "message": "Save and close"
+   },
+   "options_show_on_page_buttons": {
+      "description": "Show on page controls label",
+      "message": "Show download button near downloadable media"
+   },
+   "options_title": {
+      "description": "Options page title",
+      "message": "Options"
+   },
+   "page_action_title": {
+      "description": "Tooltip on pageAction hover",
+      "message": "Downloadable media found!"
+   },
+   "popup_check_all": {
+      "description": "Text for check all",
+      "message": "all"
+   },
+   "popup_check_label": {
+      "description": "Label to check all or none",
+      "message": "Check:"
+   },
+   "popup_check_none": {
+      "description": "Text for check none",
+      "message": "none"
+   },
+   "popup_download": {
+      "description": "Download button text",
+      "message": "DOWNLOAD"
+   },
+   "popup_download_failed": {
+      "description": "Message is shown if download could not be started.",
+      "message": "Download has failed to start. Try with different format or quality."
+   },
+   "popup_download_selected": {
+      "description": "Download selected button text",
+      "message": "DOWNLOAD SELECTED"
+   },
+   "popup_download_starting": {
+      "description": "Wait for download button text",
+      "message": "Please wait..."
+   },
+   "popup_how_many_media_found": {
+      "description": "Text saying how many media was found.",
+      "message": "$number$ media found",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": 42
+         }
+      }
+   },
+   "popup_no_media_found": {
+      "description": "Message shows in popup if there is no media to display.",
+      "message": "No media was found, sorry."
+   },
+   "popup_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Download in one click"
+   },
+   "popup_preferred_quality": {
+      "description": "Preferred media quality select label",
+      "message": "Preferred media quality"
+   },
+   "popup_preferred_quality_hint": {
+      "description": "Preferred media quality as a hint for automatic download.",
+      "message": "Preferred quality:"
+   },
+   "popup_starting_download": {
+      "description": "Starting one-click download text",
+      "message": "Starting download"
+   },
+   "popup_welcome_button": {
+      "description": "Try it now button text",
+      "message": "Try it now!"
+   },
+   "popup_welcome_text": {
+      "description": "Welcome popup text",
+      "message": "If you see this icon in the address-bar, this means that there is media content on the page (like music, video clips or movies), which can be downloaded."
+   },
+   "popup_welcome_title": {
+      "description": "Welcome popup title",
+      "message": "Downloadable media found!"
+   },
+   "ql_high": {
+      "description": "High media quality title",
+      "message": "High"
+   },
+   "ql_low": {
+      "description": "Low media quality title",
+      "message": "Low"
+   },
+   "ql_medium": {
+      "description": "Medium media quality title",
+      "message": "Medium"
+   }
 }

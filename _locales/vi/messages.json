@@ -27,6 +27,10 @@
       "description": "Save and close button",
       "message": "Lưu và đóng"
    },
+   "options_show_detach_button": {
+      "description": "Show detach button",
+      "message": "Cho phép ghim video"
+   },
    "options_show_on_page_buttons": {
       "description": "Show on page controls label",
       "message": "Hiện nút Tải xuống bên cạnh tập tin có thể tải về"
@@ -38,6 +42,34 @@
    "page_action_title": {
       "description": "Tooltip on pageAction hover",
       "message": "Đã tìm thấy phương tiện có thể tải xuống!"
+   },
+   "pip_failed_to_find": {
+      "description": "Notice for when we failed to locate player on the page.",
+      "message": "Savior failed to detach this video"
+   },
+   "pip_please_wait": {
+      "description": "When PiP doing it's magic",
+      "message": "Please wait..."
+   },
+   "pip_tour_content": {
+      "description": "PiP tour text - ask the user to try our product",
+      "message": "Bấm \u003Cb>GHIM\u003C/b> để luôn xem được video dù chuyển sang trang web mới."
+   },
+   "pip_tour_image_class": {
+      "description": "Image of a pin button",
+      "message": "vi_detach"
+   },
+   "pip_tour_restore_tip": {
+      "descrption": "PiP restore window tooltip",
+      "message": "Bấm \u003Cspan class=restore-img>\u003C/span> đây để xem trên website"
+   },
+   "pip_tour_title": {
+      "description": "PiP tour title",
+      "message": "Tính năng mới: GHIM"
+   },
+   "pip_tour_try_btn": {
+      "description": "PiP tour try now button",
+      "message": "Thử ngay"
    },
    "popup_check_all": {
       "description": "Text for check all",
@@ -84,6 +116,10 @@
    "popup_one_click": {
       "description": "Download in one click checkbox label",
       "message": "Tải xuống sau một cú nhấp chuột"
+   },
+   "popup_pip_button": {
+      "description": "Pip button text",
+      "message": "Ghim"
    },
    "popup_preferred_quality": {
       "description": "Preferred media quality select label",

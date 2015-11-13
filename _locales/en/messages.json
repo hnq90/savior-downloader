@@ -27,6 +27,10 @@
       "description": "Save and close button",
       "message": "Save and close"
    },
+   "options_show_detach_button": {
+      "description": "Show detach button",
+      "message": "Allow pinning videos"
+   },
    "options_show_on_page_buttons": {
       "description": "Show on page controls label",
       "message": "Show download button near downloadable media"
@@ -38,6 +42,34 @@
    "page_action_title": {
       "description": "Tooltip on pageAction hover",
       "message": "Downloadable media found!"
+   },
+   "pip_failed_to_find": {
+      "description": "Notice to show when we failed to locate player on the page.",
+      "message": "Could not detach this video"
+   },
+   "pip_please_wait": {
+      "description": "When PiP doing it's magic",
+      "message": "Detaching..."
+   },
+   "pip_tour_content": {
+      "description": "PiP tour text - ask the user to try our product",
+      "message": "Click \u003Cb>PIN\u003C/b> to watch video while browsing other Internet pages"
+   },
+   "pip_tour_image_class": {
+      "description": "Image of a pin button",
+      "message": "en_detach"
+   },
+   "pip_tour_restore_tip": {
+      "descrption": "PiP restore window tooltip",
+      "message": "Click \u003Cspan class=restore-img>\u003C/span> to watch on website"
+   },
+   "pip_tour_title": {
+      "description": "PiP tour title",
+      "message": "New Button: \"PIN\""
+   },
+   "pip_tour_try_btn": {
+      "description": "PiP tour try now button",
+      "message": "Try now"
    },
    "popup_check_all": {
       "description": "Text for check all",
@@ -84,6 +116,10 @@
    "popup_one_click": {
       "description": "Download in one click checkbox label",
       "message": "Download in one click"
+   },
+   "popup_pip_button": {
+      "description": "Pip button text",
+      "message": "Pin"
    },
    "popup_preferred_quality": {
       "description": "Preferred media quality select label",

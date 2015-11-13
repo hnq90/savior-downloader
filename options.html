@@ -14,6 +14,11 @@
 				<input type="checkbox" id="on-page-buttons" {{#onPageButtonsEnabled}}checked{{/onPageButtonsEnabled}}>
 				{{i18n_show_on_page_buttons}}
 			</label>
+			<label class="checkbox {{^onPageButtonsEnabled}}disabled{{/onPageButtonsEnabled}}">
+				<input type="checkbox" id="detach-button" {{^onPageButtonsEnabled}}disabled{{/onPageButtonsEnabled}}
+															{{#detachButtonEnabled}}checked{{/detachButtonEnabled}}>
+				{{i18n_show_detach_button}}
+			</label>
 			<br>
 			<label class="checkbox">
 				<input type="checkbox" id="one-click-download" {{#isOneClickEnabled}}checked{{/isOneClickEnabled}}>

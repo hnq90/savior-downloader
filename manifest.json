@@ -15,7 +15,7 @@
    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN4c7XRYXzpvahEEqCGsfZPXsl5kWXuv14AkytPEG4ok42OVda9wNV/GeZqYUO4IvW/3erMWGcnb+wyt2K9nds9aC+cKDf+eUU4vPAI8i/aWdPYe0G5tBlwitHJouftu9G5i6auE91IaXVbXkW5//zVHiB1v/MFunh4EkwfV9ONwIDAQAB",
    "manifest_version": 2,
    "minimum_chrome_version": "45",
-   "name": "Savior",
+   "name": "Cốc Cốc Savior",
    "options_page": "options.html",
    "page_action": {
       "default_icon": "images/action.png",
@@ -24,6 +24,6 @@
    },
    "permissions": [ "tabs", "webRequest", "webRequestBlocking", "webNavigation", "metricsPrivate", "downloads", "storage", "http://*/*", "https://*/*" ],
    "update_url": "http://service.corom.vn/service/update2/crx",
-   "version": "0.10.9",
+   "version": "0.10.10",
    "web_accessible_resources": [ "css/content-popup.css", "images/*.*" ]
 }

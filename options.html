@@ -8,7 +8,6 @@
 <body class="body">
 	<div id="options"></div>
 	<script type="text/mustache-template" id="options-template">
-		<h1>{{i18n_options_title}}</h1>
 		<div class="form">
 			<label class="checkbox">
 				<input type="checkbox" id="on-page-buttons" {{#onPageButtonsEnabled}}checked{{/onPageButtonsEnabled}}>
@@ -42,8 +41,7 @@
 			<input type="range" id="min-stream-size" min="0" max="3048000" value="{{minStreamSize}}" style="width: 300px">
 			<span id="min-stream-size-value">{{minStreamSizeValue}}</span>
 		</div>
-		<span class="btn close-button" id="button">{{i18n_save_and_close}}<btn>
-		<a href="#" id="close-button" class="close-button">×</a>
+		<span class="btn close-button" id="button">{{i18n_save_and_close}}</span>
 	</script>
 	<script type="text/javascript" src="libs/mustache.js"></script>
 	<script type="text/javascript" src="options/options-page.js"></script>

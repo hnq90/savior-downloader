@@ -32,7 +32,10 @@
 	</script>
 
 	<script type="text/mustache-template" id="template-widget">
-		<ul class="main main-panel">
+
+		<div class="hide-btn" id="hide-widget">&#10761;</div>
+
+		<ul class="main main-panel"{{#no_downloads}} hidden{{/no_downloads}}>
 			<li class="panel">
 				<span class="select" id="preferred-select"></span>
 				<a class="download-btn" id="download-main" title="{{i18n_download}}">{{i18n_download}}</a>
@@ -41,7 +44,31 @@
 				<a class="message"  id="showhide-all"></a>
 			</li>
 		</ul>
-		<div id="downloads"></div>
+
+		<!-- Progress box for content script -->
+        <div class="tooltip-box">
+            <div class="play-and-progress-box" hidden>
+                <button class="play-now-btn" id="play-now">
+                    &#9654; {{i18n_play_now}}
+                </button>
+                <div class="progress-box">
+                    <div class="progress-bar">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="percent"></div>
+                </div>
+            </div>
+            <div class="tooltip bleft">
+                {{{i18n_play_text}}}
+                <form action="" class="not-show">
+                    <input type="checkbox" name="vehicle" value="abc" id="play-now-not-show-check">
+                    <label for="play-now-not-show-check">{{i18n_play_not_show}}</label>
+                </form>
+                <span class="closebtn" id="close-play-now-tooltip">+</span>
+            </div>
+        </div>
+
+		<div id="downloads"{{#no_downloads}} hidden{{/no_downloads}}></div>
 		{{#has_pip}}<div class="pip-btn"><a id="open-pip">{{i18n_pip_button}}</a></div>{{/has_pip}}
 	</script>
 
@@ -69,15 +96,16 @@
 				{{#media}}
 					{{#media}}
 						{{#media}}
-				<span class="j-quality-option" data-quality="{{ext}}/{{quality}}" hidden>
-					{{ext}}{{#quality}}, {{quality}}{{/quality}} <span class="file-size{{#size}} done{{/size}}" id="size_{{id}}">{{size}}</span>
+				<span class="j-quality-option quality-option" data-quality="{{ext}}/{{quality}}" hidden>
+					{{i18n_ext}}{{^i18n_ext}}{{ext}}{{/i18n_ext}}{{#quality}}, {{quality}}{{/quality}} <span class="file-size{{#size}} done{{/size}}" id="size_{{id}}">{{size}}</span>
 				</span>
 					{{/media}}
 				{{/media}}
 				{{/media}}
 				<select class="j-quality-selector" {{#is_only}}hidden{{/is_only}}>
 				{{#media}}
-					<optgroup label="{{ext}}">
+				<!-- TODO i18n -->
+					<optgroup label="{{i18n_ext}}{{^i18n_ext}}{{ext}} {{#soundOnly}}{{i18n_sound_only}}{{/soundOnly}}{{/i18n_ext}}">
 						{{#media}}
 						<option value="{{ext}}/{{quality}}">{{quality}}{{^quality}}{{ext}}{{/quality}}</option>
 						{{/media}}
@@ -85,17 +113,55 @@
 				{{/media}}
 				</select>
 			</span>
+
+			<div class="progress-box">
+				<div class="progress-info progress-text">
+					...
+				</div>
+
+				<div class="progress-info speed-text">
+					...
+				</div>
+
+				<div class="progress-bar">
+					<div class="bar"></div>
+				</div>
+			</div>
+
 			{{#media}}
 				{{#media}}
 					{{#media}}
-						<a title="{{title}}" class="download-btn j-quality-download" data-quality="{{ext}}/{{quality}}" data-id="{{id}}" id="media_{{id}}" hidden>
+						<a title="{{title}}" class="download-btn j-quality-download"
+						   data-quality="{{ext}}/{{quality}}"
+						   data-id="{{id}}"
+						   data-url="{{url}}"
+						   id="media_{{id}}"
+						   hidden>
 							<span class="d">{{i18n_download}}</span>
 							<span class="wait">{{i18n_wait}}</span>
 						</a>
 					{{/media}}
 				{{/media}}
 			{{/media}}
+
+			<button class="play-now-btn">
+				&#9654; {{i18n_play_now}}
+			</button>
 		</li>
 	</script>
+
+
+    <script type="text/mustache-template" id="template-tooltip-play-now-bottom">
+        <div class="tooltip-box tooltip-box-bottom" hidden>
+            <div class="tooltip tleft">
+                {{{i18n_play_text}}}
+                <form action="" class="not-show">
+                    <input type="checkbox" name="vehicle" value="" id="play-now-not-show-check-bottom">
+                    <label for="play-now-not-show-check-bottom">{{i18n_play_not_show}}</label>
+                </form>
+                <span class="closebtn" id="close-play-now-tooltip-bottom">+</span>
+            </div>
+        </div>
+    </script>
 </body>
 </html>

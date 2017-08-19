@@ -1,160 +1,215 @@
 {
-   "media_fields_type_audio": {
-      "description": "Audio media type",
-      "message": "Audio"
-   },
-   "media_fields_type_stream": {
-      "description": "Stream media type",
-      "message": "Stream"
-   },
-   "media_fields_type_video": {
-      "description": "Video media type",
-      "message": "Video"
-   },
-   "options_min_stream_size": {
-      "description": "Min stream size label",
-      "message": "Ignore streams smaller than"
-   },
-   "options_one_click": {
-      "description": "Download in one click checkbox label",
-      "message": "Download in one click"
-   },
-   "options_prefer_last_quality": {
-      "description": "Prefer last quality as initial quality selector checkbox label",
-      "message": "Remember last chosen media quality"
-   },
-   "options_save_and_close": {
-      "description": "Save and close button",
-      "message": "Save and close"
-   },
-   "options_show_detach_button": {
-      "description": "Show detach button",
-      "message": "Allow pinning videos"
-   },
-   "options_show_on_page_buttons": {
-      "description": "Show on page controls label",
-      "message": "Show download button near downloadable media"
-   },
-   "options_title": {
-      "description": "Options page title",
-      "message": "Options"
-   },
-   "page_action_title": {
-      "description": "Tooltip on pageAction hover",
-      "message": "Downloadable media found!"
-   },
-   "pip_failed_to_find": {
-      "description": "Notice to show when we failed to locate player on the page.",
-      "message": "Could not detach this video"
-   },
-   "pip_please_wait": {
-      "description": "When PiP doing it's magic",
-      "message": "Detaching..."
-   },
-   "pip_tour_content": {
-      "description": "PiP tour text - ask the user to try our product",
-      "message": "Click \u003Cb>PIN\u003C/b> to watch video while browsing other Internet pages"
-   },
-   "pip_tour_image_class": {
-      "description": "Image of a pin button",
-      "message": "en_detach"
-   },
-   "pip_tour_restore_tip": {
-      "descrption": "PiP restore window tooltip",
-      "message": "Click \u003Cspan class=restore-img>\u003C/span> to watch on website"
-   },
-   "pip_tour_title": {
-      "description": "PiP tour title",
-      "message": "New Button: \"PIN\""
-   },
-   "pip_tour_try_btn": {
-      "description": "PiP tour try now button",
-      "message": "Try now"
-   },
-   "popup_check_all": {
-      "description": "Text for check all",
-      "message": "all"
-   },
-   "popup_check_label": {
-      "description": "Label to check all or none",
-      "message": "Check:"
-   },
-   "popup_check_none": {
-      "description": "Text for check none",
-      "message": "none"
-   },
-   "popup_download": {
-      "description": "Download button text",
-      "message": "DOWNLOAD"
-   },
-   "popup_download_failed": {
-      "description": "Message is shown if download could not be started.",
-      "message": "Download has failed to start. Try with different format or quality."
-   },
-   "popup_download_selected": {
-      "description": "Download selected button text",
-      "message": "DOWNLOAD SELECTED"
-   },
-   "popup_download_starting": {
-      "description": "Wait for download button text",
-      "message": "Please wait..."
-   },
-   "popup_how_many_media_found": {
-      "description": "Text saying how many media was found.",
-      "message": "$number$ media found",
-      "placeholders": {
-         "number": {
-            "content": "$1",
-            "example": 42
-         }
-      }
-   },
-   "popup_no_media_found": {
-      "description": "Message shows in popup if there is no media to display.",
-      "message": "No media was found, sorry."
-   },
-   "popup_one_click": {
-      "description": "Download in one click checkbox label",
-      "message": "Download in one click"
-   },
-   "popup_pip_button": {
-      "description": "Pip button text",
-      "message": "Pin"
-   },
-   "popup_preferred_quality": {
-      "description": "Preferred media quality select label",
-      "message": "Preferred media quality"
-   },
-   "popup_preferred_quality_hint": {
-      "description": "Preferred media quality as a hint for automatic download.",
-      "message": "Preferred quality:"
-   },
-   "popup_starting_download": {
-      "description": "Starting one-click download text",
-      "message": "Starting download"
-   },
-   "popup_welcome_button": {
-      "description": "Try it now button text",
-      "message": "Try it now!"
-   },
-   "popup_welcome_text": {
-      "description": "Welcome popup text",
-      "message": "If you see this icon in the address-bar, this means that there is media content on the page (like music, video clips or movies), which can be downloaded."
-   },
-   "popup_welcome_title": {
-      "description": "Welcome popup title",
-      "message": "Downloadable media found!"
-   },
-   "ql_high": {
-      "description": "High media quality title",
-      "message": "High"
-   },
-   "ql_low": {
-      "description": "Low media quality title",
-      "message": "Low"
-   },
-   "ql_medium": {
-      "description": "Medium media quality title",
-      "message": "Medium"
-   }
+	"options_title": {
+		"message": "Options",
+		"description": "Options page title"
+	},
+	"options_show_on_page_buttons": {
+		"message": "Show download button near downloadable media",
+		"description": "Show on page controls label"
+	},
+	"options_show_detach_button": {
+		"message": "Allow pinning videos",
+		"description": "Show detach button"
+	},
+	"options_one_click": {
+		"message": "Download in one click",
+		"description": "Download in one click checkbox label"
+	},
+	"options_prefer_last_quality": {
+		"message": "Remember last chosen media quality",
+		"description": "Prefer last quality as initial quality selector checkbox label"
+	},
+	"options_min_stream_size": {
+		"message": "Ignore streams smaller than",
+		"description": "Min stream size label"
+	},
+	"options_save_and_close": {
+		"message": "Save and close",
+		"description": "Save and close button"
+	},
+
+	"popup_check_label": {
+		"message": "Check:",
+		"description": "Label to check all or none"
+	},
+	"popup_check_all": {
+		"message": "all",
+		"description": "Text for check all"
+	},
+	"popup_check_none": {
+		"message": "none",
+		"description": "Text for check none"
+	},
+	"popup_download_selected": {
+		"message": "DOWNLOAD SELECTED",
+		"description": "Download selected button text"
+	},
+	"popup_download": {
+		"message": "DOWNLOAD",
+		"description": "Download button text"
+	},
+	"popup_download_starting": {
+		"message": "Please wait...",
+		"description": "Wait for download button text"
+	},
+	"popup_preferred_quality_hint": {
+		"message": "Preferred quality:",
+		"description": "Preferred media quality as a hint for automatic download."
+	},
+	"popup_preferred_quality": {
+		"message": "Preferred media quality",
+		"description": "Preferred media quality select label"
+	},
+	"popup_one_click": {
+		"message": "Download in one click",
+		"description": "Download in one click checkbox label"
+	},
+	"popup_no_media_found": {
+		"message": "No media was found, sorry.",
+		"description": "Message shows in popup if there is no media to display."
+	},
+	"popup_how_many_media_found": {
+		"message": "$number$ media found",
+		"description": "Text saying how many media was found.",
+		"placeholders": {
+			"number": {
+				"content": "$1",
+				"example": 42
+			}
+		}
+	},
+	"popup_download_failed": {
+		"message": "Download has failed to start. Try with different format or quality.",
+		"description": "Message is shown if download could not be started."
+	},
+
+	"popup_welcome_title": {
+		"message": "Downloadable media found!",
+		"description": "Welcome popup title"
+	},
+
+	"popup_welcome_text": {
+		"message": "If you see this icon in the address-bar, this means that there is media content on the page (like music, video clips or movies), which can be downloaded.",
+		"description": "Welcome popup text"
+	},
+
+	"popup_welcome_button": {
+		"message": "Try it now!",
+		"description": "Try it now button text"
+	},
+
+	"popup_starting_download": {
+		"message": "Starting download",
+		"description": "Starting one-click download text"
+	},
+
+  	"popup_pip_button": {
+	  	"message": "Pin",
+	  	"description": "Pip button text"
+	},
+	"popup_sound_only": {
+		"message": "(sound only)",
+		"description": "Sound only text for quality selection"
+	},
+
+    "pip_failed_to_find": {
+	    "message": "Could not detach this video",
+	    "description": "Notice to show when we failed to locate player on the page."
+	},
+    "pip_please_wait": {
+	    "message": "Detaching...",
+	    "description": "When PiP doing it's magic"
+	},
+
+	"ql_high": {
+		"message": "High",
+		"description": "High media quality title"
+	},
+	"ql_medium": {
+		"message": "Medium",
+		"description": "Medium media quality title"
+	},
+	"ql_low": {
+		"message": "Low",
+		"description": "Low media quality title"
+	},
+
+	"media_fields_type_audio": {
+		"message": "Audio",
+		"description": "Audio media type"
+	},
+	"media_fields_type_video": {
+		"message": "Video",
+		"description": "Video media type"
+	},
+	"media_fields_type_stream": {
+		"message": "Stream",
+		"description": "Stream media type"
+	},
+
+	"page_action_title": {
+		"message": "Downloadable media found!",
+		"description": "Tooltip on pageAction hover"
+	},
+
+	"pip_tour_title": {
+		"message": "New Button: \"PIN\"",
+		"description": "PiP tour title"
+	},
+	"pip_tour_content": {
+		"message": "Click <b>PIN</b> to watch video while browsing other Internet pages",
+		"description": "PiP tour text - ask the user to try our product"
+	},
+	"pip_tour_try_btn": {
+		"message": "Try now",
+		"description": "PiP tour try now button"
+	},
+	"pip_tour_image_class": {
+		"message": "en_detach",
+		"description": "Image of a pin button"
+	},
+	"pip_tour_restore_tip": {
+		"message": "Click <span class=restore-img></span> to watch on website",
+		"descrption": "PiP restore window tooltip"
+	},
+
+
+
+	"subtitles_auto_translated": {
+		"message": "(auto translated)",
+		"description": "Auto translated subtitles"
+	},
+	"subtitles_lang_en": {
+		"message": "English",
+		"description": "English"
+	},
+	"subtitles_lang_vi": {
+		"message": "Vietnamese",
+		"description": "Vietnamese"
+	},
+	"media_fields_ext_yt_srt": {
+		"message": "Subtitles",
+		"description": "Subtitles media title"
+	},
+
+	"play_now_play_now": {
+		"message": "Play now",
+		"description": "Play now button title"
+	},
+	"play_now_click_to_play": {
+		"message": "Click to <b>Play now</b> to watch downloading video now!",
+		"description": "Promote text in a tooltip"
+	},
+	"play_now_do_not_show": {
+		"message": "Do not show again",
+		"description": "Do not show tooltip again text"
+	},
+	"play_now_per_second": {
+		"message": "sec",
+		"description": "A 'second' name"
+	},
+	"play_now_received_from": {
+		"message": "from",
+		"description": "A 'from' word"
+	}
 }

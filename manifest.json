@@ -1,1 +1,52 @@
-{"manifest_version":2,"name":"Cốc Cốc Savior","version":"0.17.2","default_locale":"en","icons":{"128":"images/64.png"},"background":{"page":"background.html"},"minimum_chrome_version":"48","content_scripts":[{"run_at":"document_start","all_frames":false,"matches":["<all_urls>"],"js":["content-script/content-script.js","libs/mustache.js"]}],"web_accessible_resources":["css/content-popup.css","images/*.*"],"options_ui":{"page":"options.html","chrome_style":false},"permissions":["tabs","webRequest","webRequestBlocking","webNavigation","metricsPrivate","downloads","downloads.open","storage","http://*/*","https://*/*"],"page_action":{"default_icon":"images/action.png","default_title":"__MSG_page_action_title__","default_popup":"popup.html"},"update_url":"http://service.corom.vn/service/update2/crx"}
+{
+  "manifest_version": 2,
+  "name": "Cốc Cốc Savior",
+  "version": "0.19.2",
+  "default_locale": "en",
+  "icons": {
+    "128": "images/64.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "minimum_chrome_version": "48",
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "all_frames": false,
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "common/common.js",
+        "content-script/content-script.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "css/content-script.css",
+    "images/*.*"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": false
+  },
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "metricsPrivate",
+    "downloads",
+    "downloads.open",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "page_action": {
+    "default_icon": "images/action.png",
+    "default_title": "__MSG_page_action_title__",
+    "default_popup": "popup.html"
+  },
+  "update_url": "http://service.corom.vn/service/update2/crx"
+}

@@ -1,52 +1,31 @@
 {
-  "manifest_version": 2,
-  "name": "Cốc Cốc Savior",
-  "version": "0.19.2",
-  "default_locale": "en",
-  "icons": {
-    "128": "images/64.png"
-  },
-  "background": {
-    "page": "background.html"
-  },
-  "minimum_chrome_version": "48",
-  "content_scripts": [
-    {
-      "run_at": "document_start",
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
       "all_frames": false,
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "common/common.js",
-        "content-script/content-script.js"
-      ]
-    }
-  ],
-  "web_accessible_resources": [
-    "css/content-script.css",
-    "images/*.*"
-  ],
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": false
-  },
-  "permissions": [
-    "tabs",
-    "webRequest",
-    "webRequestBlocking",
-    "webNavigation",
-    "metricsPrivate",
-    "downloads",
-    "downloads.open",
-    "storage",
-    "http://*/*",
-    "https://*/*"
-  ],
-  "page_action": {
-    "default_icon": "images/action.png",
-    "default_title": "__MSG_page_action_title__",
-    "default_popup": "popup.html"
-  },
-  "update_url": "http://service.corom.vn/service/update2/crx"
+      "js": [ "common/common.js", "content-script/content-script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "icons": {
+      "128": "images/64.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "48",
+   "name": "Cốc Cốc Savior",
+   "options_ui": {
+      "chrome_style": false,
+      "page": "options.html"
+   },
+   "page_action": {
+      "default_icon": "images/action.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_page_action_title__"
+   },
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking", "webNavigation", "downloads", "downloads.open", "storage", "http://*/*", "https://*/*" ],
+   "update_url": "http://service.corom.vn/service/update2/crx",
+   "version": "0.20.0",
+   "web_accessible_resources": [ "css/content-script.css", "images/*.*" ]
 }

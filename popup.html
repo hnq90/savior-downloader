@@ -11,14 +11,11 @@
 
 <script type="text/mustache-template" id="list-template">
     <div class="downloads-list">
+        <h1>Video</h1>
         {{#downloads}}
-        <h1>{{i18n_type}}</h1>
-        <ul>
-            {{#media}}
             {{>media_template}}
-            {{/media}}
-        </ul>
         {{/downloads}}
+
         {{^downloads}}
         <div class="no-media">
             {{i18n_no_media_found}}
@@ -42,7 +39,7 @@
         </label>
         <span id="error-message">{{i18n_download_failed}}</span>
     </div>
-    <a href="#" id="close-popup" tabindex="-1">×</a>
+    <!--<a href="#" id="close-popup" tabindex="-1">×</a>-->
 </script>
 <script type="text/mustache-template" id="welcome-template">
     <div class="welcome">

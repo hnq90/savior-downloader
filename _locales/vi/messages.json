@@ -1,194 +1,192 @@
 {
-  "options_title": {
-    "message": "Tùy chọn",
-    "description": "Options page title"
-  },
-  "options_show_on_page_buttons": {
-    "message": "Hiện nút Tải xuống bên cạnh tập tin có thể tải về",
-    "description": "Show on page controls label"
-  },
-  "options_show_detach_button": {
-    "message": "Cho phép ghim video",
-    "description": "Show detach button"
-  },
-  "options_one_click": {
-    "message": "Tải xuống sau một cú nhấp chuột",
-    "description": "Download in one click checkbox label"
-  },
-  "options_prefer_last_quality": {
-    "message": "Ghi nhớ chất lượng tập tin được chọn của lần gần nhất",
-    "description": "Prefer last quality as initial quality selector checkbox label"
-  },
-  "options_min_stream_size": {
-    "message": "Hãy bỏ qua luồng nhỏ hơn",
-    "description": "Min stream size label"
-  },
-  "options_save_and_close": {
-    "message": "Lưu và đóng",
-    "description": "Save and close button"
-  },
-  "popup_check_label": {
-    "message": "Chọn:",
-    "description": "Label to check all or none"
-  },
-  "popup_check_all": {
-    "message": "tất cả",
-    "description": "Text for check all"
-  },
-  "popup_check_none": {
-    "message": "bỏ chọn",
-    "description": "Text for check none"
-  },
-  "popup_download_selected": {
-    "message": "TẢI XUỐNG ĐÃ CHỌN",
-    "description": "Download selected button text"
-  },
-  "popup_download": {
-    "message": "TẢI XUỐNG",
-    "description": "Download button text"
-  },
-  "popup_download_starting": {
-    "message": "Vui lòng chờ...",
-    "description": "Wait for download button text"
-  },
-  "popup_preferred_quality_hint": {
-    "message": "Chất lượng:",
-    "description": "Preferred media quality as a hint for automatic download."
-  },
-  "popup_preferred_quality": {
-    "message": "Chất lượng phương tiện ưa thích",
-    "description": "Preferred media quality select label"
-  },
-  "popup_one_click": {
-    "message": "Tải xuống sau một cú nhấp chuột",
-    "description": "Download in one click checkbox label"
-  },
-  "popup_no_media_found": {
-    "message": "Xin lỗi, không tìm thấy phương tiện nào.",
-    "description": "Message shows in popup if there is no media to display."
-  },
-  "popup_how_many_media_found": {
-    "message": "$number$ phương tiện được tìm thấy",
-    "description": "Text saying how many media was found.",
-    "placeholders": {
-      "number": {
-        "content": "$1",
-        "example": 42
+   "media_fields_type_audio": {
+      "description": "Audio media type",
+      "message": "Âm thanh"
+   },
+   "media_fields_type_stream": {
+      "description": "Stream media type",
+      "message": "Stream"
+   },
+   "media_fields_type_subtitles": {
+      "description": "Subtitles media title",
+      "message": "Phụ đề"
+   },
+   "media_fields_type_video": {
+      "description": "Video media type",
+      "message": "Phim"
+   },
+   "options_min_stream_size": {
+      "description": "Min stream size label",
+      "message": "Hãy bỏ qua luồng nhỏ hơn"
+   },
+   "options_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Tải xuống sau một cú nhấp chuột"
+   },
+   "options_prefer_last_quality": {
+      "description": "Prefer last quality as initial quality selector checkbox label",
+      "message": "Ghi nhớ chất lượng tập tin được chọn của lần gần nhất"
+   },
+   "options_save_and_close": {
+      "description": "Save and close button",
+      "message": "Lưu và đóng"
+   },
+   "options_show_detach_button": {
+      "description": "Show detach button",
+      "message": "Cho phép ghim video"
+   },
+   "options_show_on_page_buttons": {
+      "description": "Show on page controls label",
+      "message": "Hiện nút Tải xuống bên cạnh tập tin có thể tải về"
+   },
+   "options_title": {
+      "description": "Options page title",
+      "message": "Tùy chọn"
+   },
+   "page_action_title": {
+      "description": "Tooltip on pageAction hover",
+      "message": "Đã tìm thấy phương tiện có thể tải xuống!"
+   },
+   "pip_failed_to_find": {
+      "description": "Notice for when we failed to locate player on the page.",
+      "message": "Savior failed to detach this video"
+   },
+   "pip_please_wait": {
+      "description": "When PiP doing it's magic",
+      "message": "Please wait..."
+   },
+   "pip_tour_content": {
+      "description": "PiP tour text - ask the user to try our product",
+      "message": "Bạn có thể tải phần âm thanh của các video trực tuyến (theo định dạng \u003Cstrong>mp3\u003C/strong>)."
+   },
+   "pip_tour_title": {
+      "description": "PiP tour title",
+      "message": "Tải file mp3 chỉ bằng 1 click chuột"
+   },
+   "pip_tour_try_btn": {
+      "description": "PiP tour try now button",
+      "message": "Thử ngay!"
+   },
+   "play_now_click_to_play": {
+      "description": "Promote text in a tooltip",
+      "message": "Bấm \u003Cb>Xem ngay\u003C/b> để xem trong khi tải video!"
+   },
+   "play_now_do_not_show": {
+      "description": "Do not show tooltip again text",
+      "message": "Không hiển thị lại"
+   },
+   "play_now_per_second": {
+      "description": "A 'second' name",
+      "message": "giây"
+   },
+   "play_now_play_now": {
+      "description": "Play now button title",
+      "message": "Xem ngay"
+   },
+   "play_now_received_from": {
+      "description": "A 'from' word",
+      "message": "của"
+   },
+   "popup_check_all": {
+      "description": "Text for check all",
+      "message": "tất cả"
+   },
+   "popup_check_label": {
+      "description": "Label to check all or none",
+      "message": "Chọn:"
+   },
+   "popup_check_none": {
+      "description": "Text for check none",
+      "message": "bỏ chọn"
+   },
+   "popup_download": {
+      "description": "Download button text",
+      "message": "TẢI XUỐNG"
+   },
+   "popup_download_failed": {
+      "description": "Message is shown if download could not be started.",
+      "message": "Khởi động download không thành công. Hãy sử dụng định dạng và chất lượng khác."
+   },
+   "popup_download_selected": {
+      "description": "Download selected button text",
+      "message": "TẢI XUỐNG ĐÃ CHỌN"
+   },
+   "popup_download_starting": {
+      "description": "Wait for download button text",
+      "message": "Vui lòng chờ..."
+   },
+   "popup_how_many_media_found": {
+      "description": "Text saying how many media was found.",
+      "message": "$number$ phương tiện được tìm thấy",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": 42
+         }
       }
-    }
-  },
-  "popup_download_failed": {
-    "message": "Khởi động download không thành công. Hãy sử dụng định dạng và chất lượng khác.",
-    "description": "Message is shown if download could not be started."
-  },
-  "popup_welcome_title": {
-    "message": "Đã tìm thấy phương tiện có thể tải xuống!",
-    "description": "Welcome popup title"
-  },
-  "popup_welcome_text": {
-    "message": " Nếu bạn nhìn thấy biểu tượng này trên thanh địa chỉ, có nghĩa là có nội dung truyền thông trên trang web (như âm nhạc, đoạn phim ca nhạc hoặc phim), có thể được tải về.",
-    "description": "Welcome popup text"
-  },
-  "popup_welcome_button": {
-    "message": "Thử ngay!",
-    "description": "Try it now button text"
-  },
-  "popup_starting_download": {
-    "message": "Bắt đầu tải xuống",
-    "description": "Starting one-click download text"
-  },
-  "popup_pip_button": {
-    "message": "Ghim",
-    "description": "Pip button text"
-  },
-  "popup_sound_only": {
-    "message": "(chỉ âm thanh)",
-    "description": "Sound only text for quality selection"
-  },
-  "pip_failed_to_find": {
-    "message": "Savior failed to detach this video",
-    "description": "Notice for when we failed to locate player on the page."
-  },
-  "pip_please_wait": {
-    "message": "Please wait...",
-    "description": "When PiP doing it's magic"
-  },
-  "ql_high": {
-    "message": "Cao",
-    "description": "High media quality title"
-  },
-  "ql_medium": {
-    "message": "Trung bình",
-    "description": "Medium media quality title"
-  },
-  "ql_low": {
-    "message": "Thấp",
-    "description": "Low media quality title"
-  },
-  "media_fields_type_audio": {
-    "message": "Âm thanh",
-    "description": "Audio media type"
-  },
-  "media_fields_type_video": {
-    "message": "Phim",
-    "description": "Video media type"
-  },
-  "media_fields_type_stream": {
-    "message": "Stream",
-    "description": "Stream media type"
-  },
-  "page_action_title": {
-    "message": "Đã tìm thấy phương tiện có thể tải xuống!",
-    "description": "Tooltip on pageAction hover"
-  },
-
-  "pip_tour_title": {
-    "message": "Tải file mp3 chỉ bằng 1 click chuột",
-    "description": "PiP tour title"
-  },
-  "pip_tour_content": {
-    "message": "Bạn có thể tải phần âm thanh của các video trực tuyến (theo định dạng <strong>mp3</strong>).",
-    "description": "PiP tour text - ask the user to try our product"
-  },
-  "pip_tour_try_btn": {
-    "message": "Thử ngay!",
-    "description": "PiP tour try now button"
-  },
-
-  "subtitles_auto_translated": {
-    "message": "(dịch tự động)",
-    "description": "Auto translated subtitles"
-  },
-  "subtitles_lang_en": {
-    "message": "Tiếng Anh",
-    "description": "English"
-  },
-  "subtitles_lang_vi": {
-    "message": "Tiếng Việt",
-    "description": "Vietnamese"
-  },
-  "media_fields_ext_yt_srt": {
-    "message": "Phụ đề",
-    "description": "Subtitles media title"
-  },
-  "play_now_play_now": {
-    "message": "Xem ngay",
-    "description": "Play now button title"
-  },
-  "play_now_click_to_play": {
-    "message": "Bấm <b>Xem ngay</b> để xem trong khi tải video!",
-    "description": "Promote text in a tooltip"
-  },
-  "play_now_do_not_show": {
-    "message": "Không hiển thị lại",
-    "description": "Do not show tooltip again text"
-  },
-  "play_now_per_second": {
-    "message": "giây",
-    "description": "A 'second' name"
-  },
-  "play_now_received_from": {
-    "message": "của",
-    "description": "A 'from' word"
-  }
+   },
+   "popup_no_media_found": {
+      "description": "Message shows in popup if there is no media to display.",
+      "message": "Xin lỗi, không tìm thấy phương tiện nào."
+   },
+   "popup_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Tải xuống sau một cú nhấp chuột"
+   },
+   "popup_pip_button": {
+      "description": "Pip button text",
+      "message": "Ghim"
+   },
+   "popup_preferred_quality": {
+      "description": "Preferred media quality select label",
+      "message": "Chất lượng phương tiện ưa thích"
+   },
+   "popup_preferred_quality_hint": {
+      "description": "Preferred media quality as a hint for automatic download.",
+      "message": "Chất lượng:"
+   },
+   "popup_sound_only": {
+      "description": "Sound only text for quality selection",
+      "message": "(chỉ âm thanh)"
+   },
+   "popup_starting_download": {
+      "description": "Starting one-click download text",
+      "message": "Bắt đầu tải xuống"
+   },
+   "popup_welcome_button": {
+      "description": "Try it now button text",
+      "message": "Thử ngay!"
+   },
+   "popup_welcome_text": {
+      "description": "Welcome popup text",
+      "message": " Nếu bạn nhìn thấy biểu tượng này trên thanh địa chỉ, có nghĩa là có nội dung truyền thông trên trang web (như âm nhạc, đoạn phim ca nhạc hoặc phim), có thể được tải về."
+   },
+   "popup_welcome_title": {
+      "description": "Welcome popup title",
+      "message": "Đã tìm thấy phương tiện có thể tải xuống!"
+   },
+   "ql_high": {
+      "description": "High media quality title",
+      "message": "Cao"
+   },
+   "ql_low": {
+      "description": "Low media quality title",
+      "message": "Thấp"
+   },
+   "ql_medium": {
+      "description": "Medium media quality title",
+      "message": "Trung bình"
+   },
+   "subtitles_auto_translated": {
+      "description": "Auto translated subtitles",
+      "message": "(dịch tự động)"
+   },
+   "subtitles_lang_en": {
+      "description": "English",
+      "message": "Tiếng Anh"
+   },
+   "subtitles_lang_vi": {
+      "description": "Vietnamese",
+      "message": "Tiếng Việt"
+   }
 }

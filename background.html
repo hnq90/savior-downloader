@@ -1,91 +1,10 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title></title>
 </head>
 <body>
 
-
-<script type="text/mustache-template" id="template-sound-only-tour">
-    <div class="tour-container">
-        <div class="pointer"></div>
-        <div class="dialog-content">
-            <h2>{{i18n_title}}</h2>
-            <div class="dialog-description">
-                <p>{{{i18n_description}}}</p>
-            </div>
-            <button class="try-now">{{i18n_lets_try_btn}}</button>
-        </div>
-    </div>
-</script>
-
-<script type="text/mustache-template" id="template-widget">
-
-    <div class="hide-btn" id="hide-widget">
-    </div>
-
-    <ul class="main main-panel" {{#no_downloads}} hidden{{/no_downloads}}>
-    <li class="panel">
-        <span class="select" id="preferred-select">
-            <span class="arrow-icon"></span>
-        </span>
-        <a class="download-btn" id="download-main" title="{{i18n_download}}">{{i18n_download}}</a>
-    </li>
-    <li class="message-panel">
-        <a class="message" id="showhide-all"></a>
-    </li>
-    </ul>
-
-    <!-- Progress box for content script -->
-    <div class="tooltip-box">
-        <div class="play-and-progress-box" hidden>
-            <div class="progress-box">
-                <div class="progress-bar">
-                    <div class="bar"></div>
-                </div>
-                <div class="percent"></div>
-            </div>
-            <button class="play-now-btn" id="play-now">
-                <span class="play-now-play-icon">&#9654;</span> {{i18n_play_now}}
-            </button>
-        </div>
-        <div class="tooltip bleft">
-            {{{i18n_play_text}}}
-            <form action="" class="not-show">
-                <input type="checkbox" name="vehicle" value="abc" id="play-now-not-show-check">
-                <label for="play-now-not-show-check">{{i18n_play_not_show}}</label>
-            </form>
-            <span class="closebtn" id="close-play-now-tooltip">+</span>
-        </div>
-    </div>
-
-    <div id="downloads" {{#no_downloads}} hidden{{/no_downloads}}></div>
-    {{#has_pip}}
-    <div class="pip-btn"><a id="open-pip">{{i18n_pip_button}}</a></div>
-    {{/has_pip}}
-</script>
-
-<script type="text/mustache-template" id="template-list">
-    <ul class="downloads-list">
-        {{#downloads}}
-            {{>media_template}}
-        {{/downloads}}
-    </ul>
-</script>
-
-
-<script type="text/mustache-template" id="template-tooltip-play-now-bottom">
-    <div class="tooltip-box tooltip-box-bottom" hidden>
-        <div class="tooltip tleft">
-            {{{i18n_play_text}}}
-            <form action="" class="not-show">
-                <input type="checkbox" name="vehicle" value="" id="play-now-not-show-check-bottom">
-                <label for="play-now-not-show-check-bottom">{{i18n_play_not_show}}</label>
-            </form>
-            <span class="closebtn" id="close-play-now-tooltip-bottom">+</span>
-        </div>
-    </div>
-</script>
 <script type="text/javascript" src="./common/common.js"></script><script type="text/javascript" src="./background/background.js"></script></body>
 </html>

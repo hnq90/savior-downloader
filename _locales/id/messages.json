@@ -1,50 +1,50 @@
 {
   "options_title": {
-    "message": "Options",
+    "message": "Pilihan",
     "description": "Options page title"
   },
   "options_show_on_page_buttons": {
-    "message": "Show download button near downloadable media",
+    "message": "Tampilkan tombol download didekat media yang bisa diunduh",
     "description": "Show on page controls label"
   },
   "options_show_detach_button": {
-    "message": "Allow pinning videos",
+    "message": "Izinkan penyematkan video",
     "description": "Show detach button"
   },
   "options_one_click": {
-    "message": "Download in one click",
+    "message": "Download dalam sekali klik",
     "description": "Download in one click checkbox label"
   },
   "options_prefer_last_quality": {
-    "message": "Remember last chosen media quality",
+    "message": "Ingat kulitas media yang dipilih terakhir",
     "description": "Prefer last quality as initial quality selector checkbox label"
   },
   "options_min_stream_size": {
-    "message": "Ignore streams smaller than",
+    "message": "Abaikan berkas yang lebih kecil dari",
     "description": "Min stream size label"
   },
   "options_save_and_close": {
-    "message": "Save and close",
+    "message": "Simpan dan tutup",
     "description": "Save and close button"
   },
   "options_show_3gp": {
-    "message": "Show 3gp format",
+    "message": "Tampilkan format 3gp",
     "description": "Show 3gp checkbox in options"
   },
   "popup_check_label": {
-    "message": "Check:",
+    "message": "Periksa:",
     "description": "Label to check all or none"
   },
   "popup_check_all": {
-    "message": "all",
+    "message": "Semua",
     "description": "Text for check all"
   },
   "popup_check_none": {
-    "message": "none",
+    "message": "tidak satupun",
     "description": "Text for check none"
   },
   "popup_download_selected": {
-    "message": "DOWNLOAD SELECTED",
+    "message": "DOWNLOAD TERPILIH",
     "description": "Download selected button text"
   },
   "popup_download": {
@@ -52,27 +52,27 @@
     "description": "Download button text"
   },
   "popup_download_starting": {
-    "message": "Please wait...",
+    "message": "Mohon tunggu...",
     "description": "Wait for download button text"
   },
   "popup_preferred_quality_hint": {
-    "message": "Preferred quality:",
+    "message": "Kualitas yang dipilih:",
     "description": "Preferred media quality as a hint for automatic download."
   },
   "popup_preferred_quality": {
-    "message": "Preferred media quality",
+    "message": "Kualitas media yang dipilih",
     "description": "Preferred media quality select label"
   },
   "popup_one_click": {
-    "message": "Download in one click",
+    "message": "Download dengan sekali klik",
     "description": "Download in one click checkbox label"
   },
   "popup_no_media_found": {
-    "message": "No media was found, sorry.",
+    "message": "Media tidak ditemukan, maaf.",
     "description": "Message shows in popup if there is no media to display."
   },
   "popup_how_many_media_found": {
-    "message": "$number$ media found",
+    "message": "$number$ media ditemukan",
     "description": "Text saying how many media was found.",
     "placeholders": {
       "number": {
@@ -82,28 +82,24 @@
     }
   },
   "popup_download_failed": {
-    "message": "Download has failed to start. Try with different format or quality.",
+    "message": "Download gagal untuk memulai. Coba dengan format dan kulitas yang berbeda.",
     "description": "Message is shown if download could not be started."
   },
   "popup_welcome_title": {
-    "message": "Downloadable media found!",
+    "message": "Media yang bisa diunduh ditemukan!",
     "description": "Welcome popup title"
   },
   "popup_welcome_text": {
-    "message": "If you see this icon in the address-bar, this means that there is media content on the page (like music, video clips or movies), which can be downloaded.",
+    "message": "Jika anda melihat ikon ini di address-bar, ini berarti ada konten atau media di dalam halaman (seperti musik, video klip atau film), yang mana bisa diunduh.",
     "description": "Welcome popup text"
   },
   "popup_welcome_button": {
-    "message": "Try it now!",
+    "message": "Coba Sekarang!",
     "description": "Try it now button text"
   },
   "popup_starting_download": {
-    "message": "Starting download",
+    "message": "Memulai download",
     "description": "Starting one-click download text"
-  },
-  "mobile_button": {
-    "message": "Mobile",
-    "description": "Mobile button text"
   },
   "popup_pip_button": {
     "message": "Pin",
@@ -114,23 +110,23 @@
     "description": "Sound only text for quality selection"
   },
   "pip_failed_to_find": {
-    "message": "Could not detach this video",
+    "message": "Tidak dapat melepaskan video ini",
     "description": "Notice to show when we failed to locate player on the page."
   },
   "pip_please_wait": {
-    "message": "Detaching...",
+    "message": "Pelepasan...",
     "description": "When PiP doing it's magic"
   },
   "ql_high": {
-    "message": "High",
+    "message": "Tinggi",
     "description": "High media quality title"
   },
   "ql_medium": {
-    "message": "Medium",
+    "message": "Menengah",
     "description": "Medium media quality title"
   },
   "ql_low": {
-    "message": "Low",
+    "message": "Rendah",
     "description": "Low media quality title"
   },
   "media_fields_type_audio": {
@@ -150,20 +146,20 @@
     "description": "Subtitles media title"
   },
   "page_action_title": {
-    "message": "Downloadable media found!",
+    "message": "Media yang bisa diunduh ditemukan!",
     "description": "Tooltip on pageAction hover"
   },
 
   "pip_tour_title": {
-    "message": "Download mp3 in just one click",
+    "message": "Download mp3 hanya dengan sekali klik",
     "description": "PiP tour title"
   },
   "pip_tour_content": {
-    "message": "You can download audio files into an <strong>mp3</strong> separately from the video.",
+    "message": "Anda bisa mengunduh file audio menjadi <strong>mp3</strong> dan terpisah dari video.",
     "description": "PiP tour text - ask the user to try our product"
   },
   "pip_tour_try_btn": {
-    "message": "Got it, let's try",
+    "message": "Mengerti, coba sekarang",
     "description": "PiP tour try now button"
   },
 
@@ -196,43 +192,23 @@
     "description": "Japanese"
   },
   "play_now_play_now": {
-    "message": "Play now",
+    "message": "Putar Sekarang",
     "description": "Play now button title"
   },
   "play_now_click_to_play": {
-    "message": "Click to <b>Play now</b> to watch downloading video now!",
+    "message": "Klik <b>Putar sekarang</b> untuk melihat video yang diunduh sekarang!",
     "description": "Promote text in a tooltip"
   },
   "play_now_do_not_show": {
-    "message": "Do not show again",
+    "message": "Jangan tampilkan lagi",
     "description": "Do not show tooltip again text"
   },
   "play_now_per_second": {
-    "message": "sec",
+    "message": "detik",
     "description": "A 'second' name"
   },
   "play_now_received_from": {
-    "message": "from",
+    "message": "dari",
     "description": "A 'from' word"
-  },
-  "mobile_panel_header": {
-    "message": "Download video on your mobile",
-    "description": "Text 1 in mobile panel"
-  },
-  "mobile_instruction_1": {
-    "message": "Open Cốc Cốc Mobile",
-    "description": "Text 2 in mobile panel"
-  },
-  "mobile_instruction_2": {
-    "message": "Scan QR code",
-    "description": "Text 3 in mobile panel"
-  },
-  "mobile_panel_footer": {
-    "message": "Don't have Cốc Cốc Browser on mobile?",
-    "description": "Text 4 in mobile panel"
-  },
-  "mobile_error_text": {
-    "message": "Please try again later.",
-    "description": "Text for error in mobile transfer panel"
   }
 }

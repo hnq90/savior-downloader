@@ -1,3 +1,3 @@
-## Savior Downloader v0.20.0
+## Savior Downloader v0.22.4
 
 Extracted from CocCoc browser.

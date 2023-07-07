@@ -1,214 +1,226 @@
 {
-  "options_title": {
-    "message": "Pilihan",
-    "description": "Options page title"
-  },
-  "options_show_on_page_buttons": {
-    "message": "Tampilkan tombol download didekat media yang bisa diunduh",
-    "description": "Show on page controls label"
-  },
-  "options_show_detach_button": {
-    "message": "Izinkan penyematkan video",
-    "description": "Show detach button"
-  },
-  "options_one_click": {
-    "message": "Download dalam sekali klik",
-    "description": "Download in one click checkbox label"
-  },
-  "options_prefer_last_quality": {
-    "message": "Ingat kulitas media yang dipilih terakhir",
-    "description": "Prefer last quality as initial quality selector checkbox label"
-  },
-  "options_min_stream_size": {
-    "message": "Abaikan berkas yang lebih kecil dari",
-    "description": "Min stream size label"
-  },
-  "options_save_and_close": {
-    "message": "Simpan dan tutup",
-    "description": "Save and close button"
-  },
-  "options_show_3gp": {
-    "message": "Tampilkan format 3gp",
-    "description": "Show 3gp checkbox in options"
-  },
-  "popup_check_label": {
-    "message": "Periksa:",
-    "description": "Label to check all or none"
-  },
-  "popup_check_all": {
-    "message": "Semua",
-    "description": "Text for check all"
-  },
-  "popup_check_none": {
-    "message": "tidak satupun",
-    "description": "Text for check none"
-  },
-  "popup_download_selected": {
-    "message": "DOWNLOAD TERPILIH",
-    "description": "Download selected button text"
-  },
-  "popup_download": {
-    "message": "DOWNLOAD",
-    "description": "Download button text"
-  },
-  "popup_download_starting": {
-    "message": "Mohon tunggu...",
-    "description": "Wait for download button text"
-  },
-  "popup_preferred_quality_hint": {
-    "message": "Kualitas yang dipilih:",
-    "description": "Preferred media quality as a hint for automatic download."
-  },
-  "popup_preferred_quality": {
-    "message": "Kualitas media yang dipilih",
-    "description": "Preferred media quality select label"
-  },
-  "popup_one_click": {
-    "message": "Download dengan sekali klik",
-    "description": "Download in one click checkbox label"
-  },
-  "popup_no_media_found": {
-    "message": "Media tidak ditemukan, maaf.",
-    "description": "Message shows in popup if there is no media to display."
-  },
-  "popup_how_many_media_found": {
-    "message": "$number$ media ditemukan",
-    "description": "Text saying how many media was found.",
-    "placeholders": {
-      "number": {
-        "content": "$1",
-        "example": 42
+   "appDescription": {
+      "message": "Helps you download video, audio files instantly from any website."
+   },
+   "appName": {
+      "message": "Download video & audio"
+   },
+   "media_fields_type_audio": {
+      "description": "Audio media type",
+      "message": "Audio"
+   },
+   "media_fields_type_no_watermark_video": {
+      "description": "No watermark video media type",
+      "message": "Video (no watermark)"
+   },
+   "media_fields_type_stream": {
+      "description": "Stream media type",
+      "message": "Stream"
+   },
+   "media_fields_type_subtitles": {
+      "description": "Subtitles media title",
+      "message": "Subtitles"
+   },
+   "media_fields_type_video": {
+      "description": "Video media type",
+      "message": "Video"
+   },
+   "options_min_stream_size": {
+      "description": "Min stream size label",
+      "message": "Abaikan berkas yang lebih kecil dari"
+   },
+   "options_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Download dalam sekali klik"
+   },
+   "options_prefer_last_quality": {
+      "description": "Prefer last quality as initial quality selector checkbox label",
+      "message": "Ingat kulitas media yang dipilih terakhir"
+   },
+   "options_save_and_close": {
+      "description": "Save and close button",
+      "message": "Simpan dan tutup"
+   },
+   "options_show_3gp": {
+      "description": "Show 3gp checkbox in options",
+      "message": "Tampilkan format 3gp"
+   },
+   "options_show_detach_button": {
+      "description": "Show detach button",
+      "message": "Izinkan penyematkan video"
+   },
+   "options_show_on_page_buttons": {
+      "description": "Show on page controls label",
+      "message": "Tampilkan tombol download didekat media yang bisa diunduh"
+   },
+   "options_title": {
+      "description": "Options page title",
+      "message": "Pilihan"
+   },
+   "page_action_title": {
+      "description": "Tooltip on pageAction hover",
+      "message": "Media yang bisa diunduh ditemukan!"
+   },
+   "pip_failed_to_find": {
+      "description": "Notice to show when we failed to locate player on the page.",
+      "message": "Tidak dapat melepaskan video ini"
+   },
+   "pip_please_wait": {
+      "description": "When PiP doing it's magic",
+      "message": "Pelepasan..."
+   },
+   "pip_tour_content": {
+      "description": "PiP tour text - ask the user to try our product",
+      "message": "Anda bisa mengunduh file audio menjadi \u003Cstrong>mp3\u003C/strong> dan terpisah dari video."
+   },
+   "pip_tour_title": {
+      "description": "PiP tour title",
+      "message": "Download mp3 hanya dengan sekali klik"
+   },
+   "pip_tour_try_btn": {
+      "description": "PiP tour try now button",
+      "message": "Mengerti, coba sekarang"
+   },
+   "play_now_click_to_play": {
+      "description": "Promote text in a tooltip",
+      "message": "Klik \u003Cb>Putar sekarang\u003C/b> untuk melihat video yang diunduh sekarang!"
+   },
+   "play_now_do_not_show": {
+      "description": "Do not show tooltip again text",
+      "message": "Jangan tampilkan lagi"
+   },
+   "play_now_per_second": {
+      "description": "A 'second' name",
+      "message": "detik"
+   },
+   "play_now_play_now": {
+      "description": "Play now button title",
+      "message": "Putar Sekarang"
+   },
+   "play_now_received_from": {
+      "description": "A 'from' word",
+      "message": "dari"
+   },
+   "popup_check_all": {
+      "description": "Text for check all",
+      "message": "Semua"
+   },
+   "popup_check_label": {
+      "description": "Label to check all or none",
+      "message": "Periksa:"
+   },
+   "popup_check_none": {
+      "description": "Text for check none",
+      "message": "tidak satupun"
+   },
+   "popup_download": {
+      "description": "Download button text",
+      "message": "DOWNLOAD"
+   },
+   "popup_download_failed": {
+      "description": "Message is shown if download could not be started.",
+      "message": "Download gagal untuk memulai. Coba dengan format dan kulitas yang berbeda."
+   },
+   "popup_download_selected": {
+      "description": "Download selected button text",
+      "message": "DOWNLOAD TERPILIH"
+   },
+   "popup_download_starting": {
+      "description": "Wait for download button text",
+      "message": "Mohon tunggu..."
+   },
+   "popup_how_many_media_found": {
+      "description": "Text saying how many media was found.",
+      "message": "$number$ media ditemukan",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": 42
+         }
       }
-    }
-  },
-  "popup_download_failed": {
-    "message": "Download gagal untuk memulai. Coba dengan format dan kulitas yang berbeda.",
-    "description": "Message is shown if download could not be started."
-  },
-  "popup_welcome_title": {
-    "message": "Media yang bisa diunduh ditemukan!",
-    "description": "Welcome popup title"
-  },
-  "popup_welcome_text": {
-    "message": "Jika anda melihat ikon ini di address-bar, ini berarti ada konten atau media di dalam halaman (seperti musik, video klip atau film), yang mana bisa diunduh.",
-    "description": "Welcome popup text"
-  },
-  "popup_welcome_button": {
-    "message": "Coba Sekarang!",
-    "description": "Try it now button text"
-  },
-  "popup_starting_download": {
-    "message": "Memulai download",
-    "description": "Starting one-click download text"
-  },
-  "popup_pip_button": {
-    "message": "Pin",
-    "description": "Pip button text"
-  },
-  "popup_sound_only": {
-    "message": "(sound only)",
-    "description": "Sound only text for quality selection"
-  },
-  "pip_failed_to_find": {
-    "message": "Tidak dapat melepaskan video ini",
-    "description": "Notice to show when we failed to locate player on the page."
-  },
-  "pip_please_wait": {
-    "message": "Pelepasan...",
-    "description": "When PiP doing it's magic"
-  },
-  "ql_high": {
-    "message": "Tinggi",
-    "description": "High media quality title"
-  },
-  "ql_medium": {
-    "message": "Menengah",
-    "description": "Medium media quality title"
-  },
-  "ql_low": {
-    "message": "Rendah",
-    "description": "Low media quality title"
-  },
-  "media_fields_type_audio": {
-    "message": "Audio",
-    "description": "Audio media type"
-  },
-  "media_fields_type_video": {
-    "message": "Video",
-    "description": "Video media type"
-  },
-  "media_fields_type_stream": {
-    "message": "Stream",
-    "description": "Stream media type"
-  },
-  "media_fields_type_subtitles": {
-    "message": "Subtitles",
-    "description": "Subtitles media title"
-  },
-  "page_action_title": {
-    "message": "Media yang bisa diunduh ditemukan!",
-    "description": "Tooltip on pageAction hover"
-  },
-
-  "pip_tour_title": {
-    "message": "Download mp3 hanya dengan sekali klik",
-    "description": "PiP tour title"
-  },
-  "pip_tour_content": {
-    "message": "Anda bisa mengunduh file audio menjadi <strong>mp3</strong> dan terpisah dari video.",
-    "description": "PiP tour text - ask the user to try our product"
-  },
-  "pip_tour_try_btn": {
-    "message": "Mengerti, coba sekarang",
-    "description": "PiP tour try now button"
-  },
-
-  "subtitles_auto_translated": {
-    "message": "(auto translated)",
-    "description": "Auto translated subtitles"
-  },
-  "subtitles_lang_en": {
-    "message": "English",
-    "description": "English"
-  },
-  "subtitles_lang_vi": {
-    "message": "Vietnamese",
-    "description": "Vietnamese"
-  },
-  "subtitles_lang_fr": {
-    "message": "French",
-    "description": "French"
-  },
-  "subtitles_lang_ru": {
-    "message": "Russian",
-    "description": "Russian"
-  },
-  "subtitles_lang_ko": {
-    "message": "Korean",
-    "description": "Korean"
-  },
-  "subtitles_lang_ja": {
-    "message": "Japanese",
-    "description": "Japanese"
-  },
-  "play_now_play_now": {
-    "message": "Putar Sekarang",
-    "description": "Play now button title"
-  },
-  "play_now_click_to_play": {
-    "message": "Klik <b>Putar sekarang</b> untuk melihat video yang diunduh sekarang!",
-    "description": "Promote text in a tooltip"
-  },
-  "play_now_do_not_show": {
-    "message": "Jangan tampilkan lagi",
-    "description": "Do not show tooltip again text"
-  },
-  "play_now_per_second": {
-    "message": "detik",
-    "description": "A 'second' name"
-  },
-  "play_now_received_from": {
-    "message": "dari",
-    "description": "A 'from' word"
-  }
+   },
+   "popup_no_media_found": {
+      "description": "Message shows in popup if there is no media to display.",
+      "message": "Media tidak ditemukan, maaf."
+   },
+   "popup_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Download dengan sekali klik"
+   },
+   "popup_pip_button": {
+      "description": "Pip button text",
+      "message": "Pin"
+   },
+   "popup_preferred_quality": {
+      "description": "Preferred media quality select label",
+      "message": "Kualitas media yang dipilih"
+   },
+   "popup_preferred_quality_hint": {
+      "description": "Preferred media quality as a hint for automatic download.",
+      "message": "Kualitas yang dipilih:"
+   },
+   "popup_sound_only": {
+      "description": "Sound only text for quality selection",
+      "message": "(sound only)"
+   },
+   "popup_starting_download": {
+      "description": "Starting one-click download text",
+      "message": "Memulai download"
+   },
+   "popup_unpip_button": {
+      "description": "Unpip button text",
+      "message": "Unpin"
+   },
+   "popup_welcome_button": {
+      "description": "Try it now button text",
+      "message": "Coba Sekarang!"
+   },
+   "popup_welcome_text": {
+      "description": "Welcome popup text",
+      "message": "Jika anda melihat ikon ini di address-bar, ini berarti ada konten atau media di dalam halaman (seperti musik, video klip atau film), yang mana bisa diunduh."
+   },
+   "popup_welcome_title": {
+      "description": "Welcome popup title",
+      "message": "Media yang bisa diunduh ditemukan!"
+   },
+   "ql_high": {
+      "description": "High media quality title",
+      "message": "Tinggi"
+   },
+   "ql_low": {
+      "description": "Low media quality title",
+      "message": "Rendah"
+   },
+   "ql_medium": {
+      "description": "Medium media quality title",
+      "message": "Menengah"
+   },
+   "subtitles_auto_translated": {
+      "description": "Auto translated subtitles",
+      "message": "(auto translated)"
+   },
+   "subtitles_lang_en": {
+      "description": "English",
+      "message": "English"
+   },
+   "subtitles_lang_fr": {
+      "description": "French",
+      "message": "French"
+   },
+   "subtitles_lang_ja": {
+      "description": "Japanese",
+      "message": "Japanese"
+   },
+   "subtitles_lang_ko": {
+      "description": "Korean",
+      "message": "Korean"
+   },
+   "subtitles_lang_ru": {
+      "description": "Russian",
+      "message": "Russian"
+   },
+   "subtitles_lang_vi": {
+      "description": "Vietnamese",
+      "message": "Vietnamese"
+   }
 }

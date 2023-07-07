@@ -10,43 +10,47 @@
     <div class="form">
         <label class="checkbox">
             <input type="checkbox" id="on-page-buttons" {{#onPageButtonsEnabled}}checked{{/onPageButtonsEnabled}}>
-            {{i18n_show_on_page_buttons}}
+            <span>{{i18n_show_on_page_buttons}}</span>
         </label>
         <label class="checkbox {{^onPageButtonsEnabled}}disabled{{/onPageButtonsEnabled}}">
             <input type="checkbox" id="detach-button" {{^onPageButtonsEnabled}}disabled{{/onPageButtonsEnabled}}
             {{#detachButtonEnabled}}checked{{/detachButtonEnabled}}>
-            {{i18n_show_detach_button}}
+            <span>{{i18n_show_detach_button}}</span>
         </label>
-        <br>
+		<!-- <label class="checkbox {{^onPageButtonsEnabled}}disabled{{/onPageButtonsEnabled}}">
+			<input type="checkbox" id="instant-button-download" {{^onPageButtonsEnabled}}disabled{{/onPageButtonsEnabled}}
+			{{#instantDownload}}checked{{/instantDownload}}>
+            <span>{{i18n_show_instant_download}}</span>
+		</label>
+        <br> -->
         <label class="checkbox">
             <input type="checkbox" id="one-click-download" {{#isOneClickEnabled}}checked{{/isOneClickEnabled}}>
-            {{i18n_one_click}}
+            <span>{{i18n_one_click}}</span>
         </label>
         <br>
         {{i18n_preferred_quality}}
         {{#qLevels}}
         <label class="radio">
             <input type="radio" name="optionsRadios" value="{{qLevelName}}" {{#isChecked}}checked{{/isChecked}}>
-            {{i18n_ql_title}}
+            <span>{{i18n_ql_title}}</span>
         </label>
         {{/qLevels}}
         <br>
         <label class="checkbox">
             <input type="checkbox" id="show-3gp-ext" {{#show3gpExt}}checked{{/show3gpExt}}>
-            {{i18n_show_3gp}}
+            <span>{{i18n_show_3gp}}</span>
         </label>
         <br>
         <label class="checkbox">
             <input type="checkbox" id="prefer-last-quality" {{#preferLastQuality}}checked{{/preferLastQuality}}>
-            {{i18n_prefer_last_quality}}
+            <span>{{i18n_prefer_last_quality}}</span>
         </label>
 
         <label id="min-stream-label">{{i18n_min_stream_szie}}</label>
-        <input type="number" id="min-stream-size" min="0" max="3048000" value="{{minStreamSize}}" style="width: 300px">
+        <input type="range" id="min-stream-size" min="0" max="3048000" value="{{minStreamSize}}">
         <span id="min-stream-size-value">{{minStreamSizeValue}}</span>
     </div>
-    <span class="btn close-button" id="button">{{i18n_save_and_close}}</span>
 </script>
 
-<script type="text/javascript" src="./common/common.js"></script><script type="text/javascript" src="./options/options.js"></script></body>
+<script type="text/javascript" src="./options.js"></script><script type="text/javascript" src="./common.js"></script></body>
 </html>

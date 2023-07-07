@@ -1,238 +1,485 @@
 {
-  "options_title": {
-    "message": "Tùy chọn",
-    "description": "Options page title"
-  },
-  "options_show_on_page_buttons": {
-    "message": "Hiện nút Tải xuống bên cạnh tập tin có thể tải về",
-    "description": "Show on page controls label"
-  },
-  "options_show_detach_button": {
-    "message": "Cho phép ghim video",
-    "description": "Show detach button"
-  },
-  "options_one_click": {
-    "message": "Tải xuống sau một cú nhấp chuột",
-    "description": "Download in one click checkbox label"
-  },
-  "options_prefer_last_quality": {
-    "message": "Ghi nhớ chất lượng tập tin được chọn của lần gần nhất",
-    "description": "Prefer last quality as initial quality selector checkbox label"
-  },
-  "options_min_stream_size": {
-    "message": "Hãy bỏ qua luồng nhỏ hơn",
-    "description": "Min stream size label"
-  },
-  "options_save_and_close": {
-    "message": "Lưu và đóng",
-    "description": "Save and close button"
-  },
-  "options_show_3gp": {
-    "message": "Hiển thị định dạng 3gp",
-    "description": "Show 3gp checkbox in options"
-  },
-  "popup_check_label": {
-    "message": "Chọn:",
-    "description": "Label to check all or none"
-  },
-  "popup_check_all": {
-    "message": "tất cả",
-    "description": "Text for check all"
-  },
-  "popup_check_none": {
-    "message": "bỏ chọn",
-    "description": "Text for check none"
-  },
-  "popup_download_selected": {
-    "message": "TẢI XUỐNG ĐÃ CHỌN",
-    "description": "Download selected button text"
-  },
-  "popup_download": {
-    "message": "TẢI XUỐNG",
-    "description": "Download button text"
-  },
-  "popup_download_starting": {
-    "message": "Vui lòng chờ...",
-    "description": "Wait for download button text"
-  },
-  "popup_preferred_quality_hint": {
-    "message": "Chất lượng:",
-    "description": "Preferred media quality as a hint for automatic download."
-  },
-  "popup_preferred_quality": {
-    "message": "Chất lượng phương tiện ưa thích",
-    "description": "Preferred media quality select label"
-  },
-  "popup_one_click": {
-    "message": "Tải xuống sau một cú nhấp chuột",
-    "description": "Download in one click checkbox label"
-  },
-  "popup_no_media_found": {
-    "message": "Xin lỗi, không tìm thấy phương tiện nào.",
-    "description": "Message shows in popup if there is no media to display."
-  },
-  "popup_how_many_media_found": {
-    "message": "$number$ phương tiện được tìm thấy",
-    "description": "Text saying how many media was found.",
-    "placeholders": {
-      "number": {
-        "content": "$1",
-        "example": 42
+   "1_messenger_text": {
+      "description": "facebook first time description",
+      "message": "\u003Cb>Hơn cả một tính năng... Đó là thanh bên\u003C/b>\u003Cbr> Facebook Messenger, Telegram, Skype, Zalo đều được tích hợp vào thanh bên Cốc Cốc. Vào chat ngay thôi!"
+   },
+   "1_skype_text": {
+      "description": "skype first time description",
+      "message": "\u003Cb>Hơn cả một tính năng... Đó là thanh bên\u003C/b>\u003Cbr> Facebook Messenger, Telegram, Skype, Zalo đều được tích hợp vào thanh bên Cốc Cốc. Vào chat ngay thôi!"
+   },
+   "1_tele_text": {
+      "description": "tele first time description",
+      "message": "\u003Cb>Hơn cả một tính năng... Đó là thanh bên\u003C/b>\u003Cbr> Facebook Messenger, Telegram, Skype, Zalo đều được tích hợp vào thanh bên Cốc Cốc. Vào chat ngay thôi!"
+   },
+   "1_translate_text": {
+      "description": "translate first time description",
+      "message": "\u003Cb>Ngoại ngữ khó? Có thanh bên lo\u003C/b>  \u003Cbr>Mở Google Dịch trong cửa sổ thanh bên để dịch ngoại ngữ nhanh hơn gấp 2 lần. Truy cập trong 1 click, không cần chuyển qua lại giữa nhiều tab."
+   },
+   "1_youtube_text": {
+      "description": "youtube first time description",
+      "message": "\u003Cb>Thanh bên mượt mà - Thưởng nhạc mê say\u003C/b>\u003Cbr> Thêm ngay YouTube vào thanh bên để nhanh chóng tìm và chơi video nhạc bạn thích!"
+   },
+   "1_zalo_text": {
+      "description": "zalo first time description",
+      "message": "\u003Cb>Hơn cả một tính năng... Đó là thanh bên\u003C/b>\u003Cbr> Facebook Messenger, Telegram, Skype, Zalo đều được tích hợp vào thanh bên Cốc Cốc. Vào chat ngay thôi!"
+   },
+   "appDescription": {
+      "message": "Giúp bạn tải nhanh các tệp video, audio từ mọi trang web."
+   },
+   "appName": {
+      "message": "Tải video & audio"
+   },
+   "cancel_button_text": {
+      "description": "onboarding cancel button text",
+      "message": "Bỏ qua"
+   },
+   "chatgpt_desc_text": {
+      "message": "\u003Cb>Thanh bên tích hợp ChatGPT - Combo siêu tiện ích mới\u003C/b>\u003Cbr>Chỉ với một lần click, bạn đã gặp ngay trợ lý ảo thông minh tại Thanh bên. Bạn có thể vừa lướt web vừa nhắn tin cho ChatGPT đó."
+   },
+   "chatgpt_title_text": {
+      "message": ""
+   },
+   "darkmode_instruction_title": {
+      "description": "darkmode instruction title",
+      "message": "Cách bật chế độ tối"
+   },
+   "downloading_word": {
+      "description": "Just a single word",
+      "message": "Đang tải về"
+   },
+   "error_text": {
+      "message": "Lỗi"
+   },
+   "instant_actions_download_options": {
+      "description": "Options text for instant download button",
+      "message": "Hiển thị nút Tải về cho YouTube trên trang kết quả tìm kiếm"
+   },
+   "instant_actions_download_tooltip": {
+      "description": "Tooltip for download in one click button",
+      "message": "Tải video YouTube chỉ với một cú nhấp chuột"
+   },
+   "login_point_onboard_title": {
+      "description": "point login title text",
+      "message": "Rất nhiều quà tặng đang chờ bạn trên Cốc Cốc Points"
+   },
+   "login_popup_text": {
+      "description": "point description loged in",
+      "message": "\u003Cb>Khi đăng nhập Tài khoản Cốc Cốc, bạn tự động trở thành thành viên Cốc Cốc Points\u003C/b> và nhận điểm thưởng khi sử dụng trình duyệt. Truy cập ngay Cốc Cốc Points trên thanh truy cập nhanh và sử dụng điểm thưởng đã tích lũy được bằng cách quy đổi thành quà tặng."
+   },
+   "media_fields_type_audio": {
+      "description": "Audio media type",
+      "message": "Audio"
+   },
+   "media_fields_type_no_watermark_video": {
+      "description": "No watermark video media type",
+      "message": "Video (không logo)"
+   },
+   "media_fields_type_stream": {
+      "description": "Stream media type",
+      "message": "Stream"
+   },
+   "media_fields_type_subtitles": {
+      "description": "Subtitles media title",
+      "message": "Phụ đề"
+   },
+   "media_fields_type_video": {
+      "description": "Video media type",
+      "message": "Video"
+   },
+   "mobile_button": {
+      "description": "Mobile button text",
+      "message": "Tải tệp về điện thoại"
+   },
+   "mobile_error_text": {
+      "description": "Text for error in mobile transfer panel",
+      "message": "Tệp không khả dụng."
+   },
+   "mobile_instruction_1": {
+      "description": "Text 2 in mobile panel",
+      "message": "Bước 1: Mở Cốc Cốc trên điện thoại"
+   },
+   "mobile_instruction_2": {
+      "description": "Text 3 in mobile panel",
+      "message": "Bước 2: Quét mã QR dưới đây"
+   },
+   "mobile_panel_footer": {
+      "description": "Text 4 in mobile panel",
+      "message": "Điện thoại của bạn chưa có trình duyệt Cốc Cốc?"
+   },
+   "mobile_panel_header": {
+      "description": "Text 1 in mobile panel",
+      "message": "Hướng dẫn tải tệp về điện thoại"
+   },
+   "not_login_point_onboard_title": {
+      "description": "point not login title text",
+      "message": "Bạn đã sẵn sàng Lướt web - Tích điểm - Đổi quà?"
+   },
+   "not_login_popup_text": {
+      "description": "point description not loged in",
+      "message": "\u003Cb>Tất cả những gì bạn cần làm là đăng nhập Tài khoản Cốc Cốc\u003C/b> và nhận ngay 100 điểm thưởng. Tích điểm ngay hôm nay và nhanh tay đổi lấy những phần quà hấp dẫn!"
+   },
+   "onboard_title": {
+      "description": "Onboarding title",
+      "message": "Đề xuất từ Cốc Cốc"
+   },
+   "onboarding_feature_image": {
+      "message": "images/pointImage_vi.png"
+   },
+   "onboarding_new_mp_abort": {
+      "message": "Bỏ qua"
+   },
+   "onboarding_new_mp_complete": {
+      "message": "Tôi đã hiểu"
+   },
+   "onboarding_new_mp_desc_1": {
+      "message": "Bạn có thể tải các tệp về máy miễn phí, nhanh gấp 8 lần"
+   },
+   "onboarding_new_mp_desc_2": {
+      "message": "Bạn có thể vừa xem video vừa sử dụng các ứng dụng khác"
+   },
+   "onboarding_new_mp_desc_3": {
+      "message": "Cốc Cốc đã tự động chặn quảng cáo để bạn xem video mà không bị làm phiền"
+   },
+   "onboarding_new_mp_next": {
+      "message": "Tiếp theo"
+   },
+   "onboarding_new_mp_title_1": {
+      "message": "Tải video, audio hoặc phụ đề bất kỳ"
+   },
+   "onboarding_new_mp_title_2": {
+      "message": "Ghim video trên cửa sổ nổi"
+   },
+   "onboarding_new_mp_title_3": {
+      "message": "Xem video không có quảng cáo"
+   },
+   "options_dark_theme": {
+      "description": "Download in one click checkbox label",
+      "message": "Bật chế độ tối cho Savior"
+   },
+   "options_min_stream_size": {
+      "description": "Min stream size label",
+      "message": "Bỏ qua các tệp có dung lượng nhỏ hơn"
+   },
+   "options_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Tải về sau một cú nhấp chuột"
+   },
+   "options_prefer_last_quality": {
+      "description": "Prefer last quality as initial quality selector checkbox label",
+      "message": "Ghi nhớ chất lượng tệp tải về của lần chọn gần nhất"
+   },
+   "options_save_and_close": {
+      "description": "Save and close button",
+      "message": "Lưu và đóng"
+   },
+   "options_show_3gp": {
+      "description": "Show 3gp checkbox in options",
+      "message": "Hiển thị định dạng 3gp"
+   },
+   "options_show_detach_button": {
+      "description": "Show detach button",
+      "message": "Hiển thị nút Ghim video trên thanh công cụ đa phương tiện"
+   },
+   "options_show_on_page_buttons": {
+      "description": "Show on page controls label",
+      "message": "Hiển thị thanh công cụ đa phương tiện bên cạnh tệp tin có thể tải về"
+   },
+   "options_title": {
+      "description": "Options page title",
+      "message": "Tùy chọn"
+   },
+   "page_action_title": {
+      "description": "Tooltip on pageAction hover",
+      "message": "Tải video & audio"
+   },
+   "pip_failed_to_find": {
+      "description": "Notice for when we failed to locate player on the page.",
+      "message": "Savior failed to detach this video"
+   },
+   "pip_please_wait": {
+      "description": "When PiP doing it's magic",
+      "message": "Please wait..."
+   },
+   "pip_tour_content": {
+      "description": "PiP tour text - ask the user to try our product",
+      "message": "Bạn có thể tải phần âm thanh của các video trực tuyến (theo định dạng \u003Cstrong>mp3\u003C/strong>)."
+   },
+   "pip_tour_title": {
+      "description": "PiP tour title",
+      "message": "Tải file mp3 chỉ bằng 1 click chuột"
+   },
+   "pip_tour_try_btn": {
+      "description": "PiP tour try now button",
+      "message": "Thử ngay!"
+   },
+   "play_now_click_to_play": {
+      "description": "Promote text in a tooltip",
+      "message": "Nhấp \u003Ca>Xem ngay\u003C/a> để thưởng thức video đã tải về ở cửa sổ nổi, ngay cả khi bạn đóng thẻ."
+   },
+   "play_now_do_not_show": {
+      "description": "Do not show tooltip again text",
+      "message": "Không hiển thị lại"
+   },
+   "play_now_per_second": {
+      "description": "A 'second' name",
+      "message": "giây"
+   },
+   "play_now_play_now": {
+      "description": "Play now button title",
+      "message": "Xem ngay"
+   },
+   "play_now_received_from": {
+      "description": "A 'from' word",
+      "message": "của"
+   },
+   "popup_1_darkmode_morning_text": {
+      "description": "darkmode description text for morning",
+      "message": "Có thể bạn chưa biết? \u003Cb>Chế độ tối\u003C/b> làm giảm ánh sáng màn hình, giúp bạn đỡ mỏi mắt hơn gấp 10 lần khi duyệt web."
+   },
+   "popup_1_darkmode_night_text": {
+      "description": "darkmode description text for night",
+      "message": "Xin chào Cú đêm! Trải nghiệm ngay \u003Cb>Chế độ tối\u003C/b> của Cốc Cốc để bảo vệ đôi mắt của bạn nhé."
+   },
+   "popup_2_darkmode_action_text": {
+      "description": "darkmode popup 2 action button text",
+      "message": "Tiếp tục trải nghiệm"
+   },
+   "popup_2_darkmode_cancel_text": {
+      "description": "darkmode popup 2 cancel button text",
+      "message": "Trở lại dùng nền sáng"
+   },
+   "popup_2_darkmode_text": {
+      "description": "darkmode description text for night",
+      "message": "Trình duyệt của bạn vừa được chuyển sang chế độ duyệt web nền tối."
+   },
+   "popup_3_darkmode_text": {
+      "description": "darkmod popup 3 description text",
+      "message": "Để bật \u003Cb>Chế độ tối\u003C/b>, hãy bấm vào \u003Cspan class='green'>[Logo Cốc Cốc] > Cài đặt > Duyệt web chế độ tối\u003C/span> và chọn \u003Cspan class='green'>Kích hoạt tính năng\u003C/span>"
+   },
+   "popup_check_all": {
+      "description": "Text for check all",
+      "message": "tất cả"
+   },
+   "popup_check_label": {
+      "description": "Label to check all or none",
+      "message": "Chọn:"
+   },
+   "popup_check_none": {
+      "description": "Text for check none",
+      "message": "bỏ chọn"
+   },
+   "popup_download": {
+      "description": "Download button text",
+      "message": "Tải về"
+   },
+   "popup_download_failed": {
+      "description": "Message is shown if download could not be started.",
+      "message": "Khởi động download không thành công. Hãy sử dụng định dạng và chất lượng khác."
+   },
+   "popup_download_selected": {
+      "description": "Download selected button text",
+      "message": "TẢI VỀ ĐÃ CHỌN"
+   },
+   "popup_download_starting": {
+      "description": "Wait for download button text",
+      "message": "Vui lòng chờ..."
+   },
+   "popup_how_many_media_found": {
+      "description": "Text saying how many media was found.",
+      "message": "$number$ tệp được tìm thấy",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": 42
+         }
       }
-    }
-  },
-  "popup_download_failed": {
-    "message": "Khởi động download không thành công. Hãy sử dụng định dạng và chất lượng khác.",
-    "description": "Message is shown if download could not be started."
-  },
-  "popup_welcome_title": {
-    "message": "Đã tìm thấy phương tiện có thể tải xuống!",
-    "description": "Welcome popup title"
-  },
-  "popup_welcome_text": {
-    "message": " Nếu bạn nhìn thấy biểu tượng này trên thanh địa chỉ, có nghĩa là có nội dung truyền thông trên trang web (như âm nhạc, đoạn phim ca nhạc hoặc phim), có thể được tải về.",
-    "description": "Welcome popup text"
-  },
-  "popup_welcome_button": {
-    "message": "Thử ngay!",
-    "description": "Try it now button text"
-  },
-  "popup_starting_download": {
-    "message": "Bắt đầu tải xuống",
-    "description": "Starting one-click download text"
-  },
-  "mobile_button": {
-    "message": "Mobile",
-    "description": "Mobile button text"
-  },
-  "popup_pip_button": {
-    "message": "Ghim",
-    "description": "Pip button text"
-  },
-  "popup_sound_only": {
-    "message": "(chỉ âm thanh)",
-    "description": "Sound only text for quality selection"
-  },
-  "pip_failed_to_find": {
-    "message": "Savior failed to detach this video",
-    "description": "Notice for when we failed to locate player on the page."
-  },
-  "pip_please_wait": {
-    "message": "Please wait...",
-    "description": "When PiP doing it's magic"
-  },
-  "ql_high": {
-    "message": "Cao",
-    "description": "High media quality title"
-  },
-  "ql_medium": {
-    "message": "Trung bình",
-    "description": "Medium media quality title"
-  },
-  "ql_low": {
-    "message": "Thấp",
-    "description": "Low media quality title"
-  },
-  "media_fields_type_audio": {
-    "message": "Âm thanh",
-    "description": "Audio media type"
-  },
-  "media_fields_type_video": {
-    "message": "Phim",
-    "description": "Video media type"
-  },
-  "media_fields_type_stream": {
-    "message": "Stream",
-    "description": "Stream media type"
-  },
-  "media_fields_type_subtitles": {
-    "message": "Phụ đề",
-    "description": "Subtitles media title"
-  },
-  "page_action_title": {
-    "message": "Đã tìm thấy phương tiện có thể tải xuống!",
-    "description": "Tooltip on pageAction hover"
-  },
-
-  "pip_tour_title": {
-    "message": "Tải file mp3 chỉ bằng 1 click chuột",
-    "description": "PiP tour title"
-  },
-  "pip_tour_content": {
-    "message": "Bạn có thể tải phần âm thanh của các video trực tuyến (theo định dạng <strong>mp3</strong>).",
-    "description": "PiP tour text - ask the user to try our product"
-  },
-  "pip_tour_try_btn": {
-    "message": "Thử ngay!",
-    "description": "PiP tour try now button"
-  },
-
-  "subtitles_auto_translated": {
-    "message": "(dịch tự động)",
-    "description": "Auto translated subtitles"
-  },
-  "subtitles_lang_en": {
-    "message": "Tiếng Anh",
-    "description": "English"
-  },
-  "subtitles_lang_vi": {
-    "message": "Tiếng Việt",
-    "description": "Vietnamese"
-  },
-  "subtitles_lang_fr": {
-    "message": "Tiếng Pháp",
-    "description": "French"
-  },
-  "subtitles_lang_ru": {
-    "message": "Tiếng Nga",
-    "description": "Russian"
-  },
-  "subtitles_lang_ko": {
-    "message": "Tiếng Hàn",
-    "description": "Korean"
-  },
-  "subtitles_lang_ja": {
-    "message": "Tiếng Nhật",
-    "description": "Japanese"
-  },
-  "play_now_play_now": {
-    "message": "Xem ngay",
-    "description": "Play now button title"
-  },
-  "play_now_click_to_play": {
-    "message": "Bấm <b>Xem ngay</b> để xem trong khi tải video!",
-    "description": "Promote text in a tooltip"
-  },
-  "play_now_do_not_show": {
-    "message": "Không hiển thị lại",
-    "description": "Do not show tooltip again text"
-  },
-  "play_now_per_second": {
-    "message": "giây",
-    "description": "A 'second' name"
-  },
-  "play_now_received_from": {
-    "message": "của",
-    "description": "A 'from' word"
-  },
-  "mobile_panel_header": {
-    "message": "Tải video này trên thiết bị di động",
-    "description": "Text 1 in mobile panel"
-  },
-  "mobile_instruction_1": {
-    "message": "Mở Cốc Cốc Mobile",
-    "description": "Text 2 in mobile panel"
-  },
-  "mobile_instruction_2": {
-    "message": "Quét mã QR này",
-    "description": "Text 3 in mobile panel"
-  },
-  "mobile_panel_footer": {
-    "message": "Bạn chưa cài trình duyệt Cốc Cốc trên di động?",
-    "description": "Text 4 in mobile panel"
-  },
-  "mobile_error_text": {
-    "message": "Xin thử lại sau.",
-    "description": "Text for error in mobile transfer panel"
-  }
+   },
+   "popup_no_media_found": {
+      "description": "Message shows in popup if there is no media to display.",
+      "message": "Xin lỗi, không tìm thấy phương tiện nào."
+   },
+   "popup_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Tải về sau một cú nhấp chuột"
+   },
+   "popup_pip_button": {
+      "description": "Pip button text",
+      "message": "Ghim video"
+   },
+   "popup_preferred_quality": {
+      "description": "Preferred media quality select label",
+      "message": "Chất lượng tệp tải về ưa thích"
+   },
+   "popup_preferred_quality_hint": {
+      "description": "Preferred media quality as a hint for automatic download.",
+      "message": "Chất lượng:"
+   },
+   "popup_sound_only": {
+      "description": "Sound only text for quality selection",
+      "message": "(chỉ âm thanh)"
+   },
+   "popup_starting_download": {
+      "description": "Starting one-click download text",
+      "message": "Bắt đầu tải xuống"
+   },
+   "popup_title": {
+      "description": "Title of the omnibox popup",
+      "message": "Tệp sẽ tải về"
+   },
+   "popup_unpip_button": {
+      "description": "Unpip button text",
+      "message": "Bỏ ghim video"
+   },
+   "popup_welcome_button": {
+      "description": "Try it now button text",
+      "message": "Thử ngay!"
+   },
+   "popup_welcome_text": {
+      "description": "Welcome popup text",
+      "message": " Nếu bạn nhìn thấy biểu tượng này trên thanh địa chỉ, có nghĩa là có nội dung truyền thông trên trang web (như âm nhạc, đoạn phim ca nhạc hoặc phim), có thể được tải về."
+   },
+   "popup_welcome_title": {
+      "description": "Welcome popup title",
+      "message": "Đã tìm thấy phương tiện có thể tải xuống!"
+   },
+   "promote_serp_btn_check_result": {
+      "description": "Button check results",
+      "message": "Tìm kiếm với Cốc Cốc"
+   },
+   "promote_serp_btn_settings": {
+      "description": "Button browser settings",
+      "message": "Mở cài đặt tìm kiếm"
+   },
+   "promote_serp_desc": {
+      "description": "SERP promotion description text",
+      "message": "Anh chị Cốc Cốc thân mến, để giúp cho việc nâng cao chất lượng tìm kiếm, anh chị vui lòng dùng công cụ trình duyệt của chúng ta và phản hồi lại cho chúng tôi."
+   },
+   "ql_high": {
+      "description": "High media quality title",
+      "message": "Cao"
+   },
+   "ql_low": {
+      "description": "Low media quality title",
+      "message": "Thấp"
+   },
+   "ql_medium": {
+      "description": "Medium media quality title",
+      "message": "Trung bình"
+   },
+   "quality_4k_qfhd": {
+      "message": "4K QFHD"
+   },
+   "quality_4k_uhd": {
+      "message": "4K UHD"
+   },
+   "quality_8k_uhd": {
+      "message": "8K UHD"
+   },
+   "quality_fhd": {
+      "message": "Full HD"
+   },
+   "quality_hd": {
+      "message": "HD"
+   },
+   "quality_medium": {
+      "message": "Trung bình"
+   },
+   "quality_mobile": {
+      "message": "Di động"
+   },
+   "quality_qhd": {
+      "message": "2K QHD"
+   },
+   "quality_small": {
+      "message": "Thấp"
+   },
+   "quality_standard": {
+      "message": "Tiêu chuẩn"
+   },
+   "subtitles_auto_translated": {
+      "description": "Auto translated subtitles",
+      "message": "(dịch tự động)"
+   },
+   "subtitles_lang_de": {
+      "description": "German",
+      "message": "Tiếng Đức"
+   },
+   "subtitles_lang_en": {
+      "description": "English",
+      "message": "Tiếng Anh"
+   },
+   "subtitles_lang_fr": {
+      "description": "French",
+      "message": "Tiếng Pháp"
+   },
+   "subtitles_lang_ja": {
+      "description": "Japanese",
+      "message": "Tiếng Nhật"
+   },
+   "subtitles_lang_ko": {
+      "description": "Korean",
+      "message": "Tiếng Hàn"
+   },
+   "subtitles_lang_ru": {
+      "description": "Russian",
+      "message": "Tiếng Nga"
+   },
+   "subtitles_lang_vi": {
+      "description": "Vietnamese",
+      "message": "Tiếng Việt"
+   },
+   "subtitles_lang_zh_Hans": {
+      "description": "Chinese",
+      "message": "Tiếng Trung"
+   },
+   "try_now_button_text": {
+      "description": "onboarding try button default text",
+      "message": "Thử ngay"
+   },
+   "try_now_point_login_button_text": {
+      "description": "point try now button text loged in",
+      "message": "Thử ngay"
+   },
+   "try_now_point_not_login_button_text": {
+      "description": "point try now button text not loged in",
+      "message": "Đăng nhập ngay"
+   },
+   "turn_off_light": {
+      "description": "Button turn light off",
+      "message": "Tắt đèn"
+   },
+   "turn_on_light": {
+      "description": "Button turn light on",
+      "message": "Bật đèn"
+   },
+   "understand_button_text": {
+      "description": "instruction action button text",
+      "message": "Tôi đã hiểu"
+   },
+   "widget_download_box_title": {
+      "description": "",
+      "message": "Chọn tệp để tải"
+   },
+   "widget_download_tooltip": {
+      "description": "Download button text",
+      "message": "Tải video, audio hoặc phụ đề"
+   },
+   "widget_downloading_media": {
+      "description": "Message shows in widget when media is downloading",
+      "message": "Đang tải dữ liệu"
+   },
+   "widget_hide_panel": {
+      "message": "Tạm ẩn thanh này"
+   },
+   "widget_no_media_found": {
+      "description": "Message shows in popup if there is no media to display.",
+      "message": "Không tìm thấy tệp"
+   },
+   "widget_other_options": {
+      "description": "Message shows in widget when user hover on three dots button",
+      "message": "Tính năng khác"
+   },
+   "widget_panel_hidden": {
+      "message": "Đã tạm ẩn thanh (Tải lại trang để hiện lại)"
+   }
 }

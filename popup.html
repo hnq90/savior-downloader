@@ -2,16 +2,19 @@
 <html>
 <head>
     <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <title></title>
 <link href="././css/popup.css" rel="stylesheet"></head>
 <body class="body">
-<div id="one-click-block" hidden></div>
 <div id="welcome"></div>
 <div id="downloads" hidden></div>
+<div id="one-click-block" hidden></div>
+<div id="footer" hidden></div>
+
 
 <script type="text/mustache-template" id="list-template">
-    <div class="downloads-list">
-        <h1>Video</h1>
+    <div class="downloads-list dark-theme">
+        <h1>{{i18n_popup_title}}</h1>
         {{#downloads}}
             {{>media_template}}
         {{/downloads}}
@@ -23,22 +26,12 @@
         {{/downloads}}
     </div>
 
-    <div id="one-click">
-        <label id="one-click-label">
-            <input type="checkbox" class="j-one-click" {{#is_single}}checked{{/is_single}}>
-            {{i18n_one_click}}
-        </label>
-        <label id="quality-level">
-            {{i18n_preferred_quality}}
-            <select id="quality-level-selection">
-                {{#quality_levels}}
-                <option {{#is_checked}}selected{{
-                /is_checked}} value="{{name}}">{{i18n_ql_title}}</option>
-                {{/quality_levels}}
-            </select>
-        </label>
-        <span id="error-message">{{i18n_download_failed}}</span>
-    </div>
+    <template name="play-now-btn">
+        <svg class="play-now-play-icon with-txt" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.41171 3.33325C6.11775 3.33325 5.8294 3.41274 5.57765 3.5631C5.30283 3.71914 5.07527 3.94559 4.91883 4.21882C4.76207 4.4926 4.68255 4.80317 4.68855 5.1179L4.68855 14.8903C4.68255 15.205 4.76207 15.5156 4.91883 15.7894C5.07647 16.0647 5.30632 16.2925 5.58397 16.4487C5.82843 16.5871 6.1042 16.662 6.38566 16.6665L6.38836 16.6665C6.69761 16.6698 7.00127 16.585 7.26337 16.4223L15.4943 11.5337L15.5027 11.5285C15.7634 11.367 15.9785 11.1424 16.1276 10.8757C16.2767 10.609 16.3549 10.3091 16.3549 10.0041C16.3549 9.69915 16.2767 9.39921 16.1276 9.13251C15.9785 8.86582 15.7635 8.64109 15.5027 8.4796L7.25313 3.56752L7.25148 3.56652C6.99838 3.41395 6.70789 3.33325 6.41171 3.33325Z" fill="white"/>
+        </svg>
+        {{i18n_play_now}}
+    </template>
     <!--<a href="#" id="close-popup" tabindex="-1">×</a>-->
 </script>
 <script type="text/mustache-template" id="welcome-template">
@@ -52,15 +45,51 @@
     </div>
 </script>
 <script type="text/mustache-template" id="one-click-template">
+    <svg width="20" height="20" class="loading-3-dots" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
     <span class="one-click-starting">{{i18n_starting_download}}</span>
     {{#media}}
-    <span class="one-click-format label label-info">{{ext}} {{#quality}}, {{quality}}{{/quality}}</span>
     <span class="one-click-title-container">
-				<span class="one-click-title">
-				 "{{title}}"
-				 </span>
-			 </span>
+        <span class="one-click-title">"{{title}}"</span>
+    </span>
+    <div class="j-media-scope one-click-format">
+        <div class="select-wrapper">
+            <span class="select">
+                <span class="j-quality-option quality-option" data-quality="{{ext}}/{{quality}}">
+                    <span class="selected-type">{{i18n_type}}</span>
+                    <span class="quality-option-ext-quality">
+                        {{#i18n_quality}}
+                            {{i18n_quality}}
+                        {{/i18n_quality}}
+                        {{^i18n_quality}}
+                            {{#quality}}{{quality}}{{/quality}}
+                        {{/i18n_quality}}
+                    </span>
+                    <span class="file-size{{#size}} done{{/size}}">{{size}}</span>
+                </span>
+            </span>
+        </div>
+    </div>
     {{/media}}
 </script>
-<script type="text/javascript" src="./common/common.js"></script><script type="text/javascript" src="./popup/popup.js"></script></body>
+<script type="text/mustache-template" id="footer-template">
+	<div id="one-click" class="dark-theme">
+		<label id="one-click-label">
+			<input type="checkbox" class="j-one-click">
+			{{i18n_one_click}}
+		</label>
+
+		{{^oneClick}}
+		<div id="quality-level">
+			{{i18n_preferred_quality}}
+			<select id="quality-level-selection">
+				{{#quality_levels}}
+				<option value="{{name}}">{{i18n_ql_title}}</option>
+				{{/quality_levels}}
+			</select>
+		</div>
+		<span id="error-message">{{i18n_download_failed}}</span>
+		{{/oneClick}}
+	</div>
+</script>
+<script type="text/javascript" src="./popup.js"></script><script type="text/javascript" src="./common.js"></script></body>
 </html>

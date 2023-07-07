@@ -1,52 +1,49 @@
 {
-  "manifest_version": 2,
-  "name": "Cốc Cốc Savior",
-  "version": "0.22.4",
-  "default_locale": "en",
-  "icons": {
-    "128": "images/logo_cc.png"
-  },
-  "background": {
-    "page": "background.html"
-  },
-  "minimum_chrome_version": "48",
-  "content_scripts": [
-    {
-      "run_at": "document_start",
-      "all_frames": false,
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "common/common.js",
-        "content-script/content-script.js"
-      ]
-    }
-  ],
-  "web_accessible_resources": [
-    "css/content-script.css",
-    "images/*.*"
-  ],
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": false
-  },
-  "permissions": [
-    "tabs",
-    "webRequest",
-    "webRequestBlocking",
-    "webNavigation",
-    "metricsPrivate",
-    "downloads",
-    "downloads.open",
-    "storage",
-    "http://*/*",
-    "https://*/*"
-  ],
-  "page_action": {
-    "default_icon": "images/action_cc.png",
-    "default_title": "__MSG_page_action_title__",
-    "default_popup": "popup.html"
-  },
-  "update_url": "https://browser.coccoc.com/service/update2/crx"
+   "action": {
+      "default_icon": "images/savior_logo.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_page_action_title__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_matches": [ "http://coccoc.com/webhp*", "https://coccoc.com/webhp*", "file://*" ],
+      "js": [ "common.js", "content-script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ruleset_1",
+         "path": "rules.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "differential_fingerprint": "",
+   "externally_connectable": {
+      "matches": [ "https://*.coccoc.com/*", "http://*.coccoc.com/*", "http://localhost/*" ]
+   },
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "images/savior_logo.png",
+      "48": "images/action_cc.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN4c7XRYXzpvahEEqCGsfZPXsl5kWXuv14AkytPEG4ok42OVda9wNV/GeZqYUO4IvW/3erMWGcnb+wyt2K9nds9aC+cKDf+eUU4vPAI8i/aWdPYe0G5tBlwitHJouftu9G5i6auE91IaXVbXkW5//zVHiB1v/MFunh4EkwfV9ONwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "48",
+   "name": "__MSG_appName__",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "webRequest", "webNavigation", "metricsPrivate", "downloads", "downloads.open", "storage", "cookies", "declarativeNetRequest", "declarativeNetRequestFeedback", "scripting", "coccocPrivate" ],
+   "update_url": "https://browser.coccoc.com/service/update2/crx",
+   "version": "2.2.5",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "app.js", "css/content-script.css", "images/*.*", "/features.json" ]
+   } ]
 }

@@ -1,238 +1,485 @@
 {
-  "options_title": {
-    "message": "Options",
-    "description": "Options page title"
-  },
-  "options_show_on_page_buttons": {
-    "message": "Show download button near downloadable media",
-    "description": "Show on page controls label"
-  },
-  "options_show_detach_button": {
-    "message": "Allow pinning videos",
-    "description": "Show detach button"
-  },
-  "options_one_click": {
-    "message": "Download in one click",
-    "description": "Download in one click checkbox label"
-  },
-  "options_prefer_last_quality": {
-    "message": "Remember last chosen media quality",
-    "description": "Prefer last quality as initial quality selector checkbox label"
-  },
-  "options_min_stream_size": {
-    "message": "Ignore streams smaller than",
-    "description": "Min stream size label"
-  },
-  "options_save_and_close": {
-    "message": "Save and close",
-    "description": "Save and close button"
-  },
-  "options_show_3gp": {
-    "message": "Show 3gp format",
-    "description": "Show 3gp checkbox in options"
-  },
-  "popup_check_label": {
-    "message": "Check:",
-    "description": "Label to check all or none"
-  },
-  "popup_check_all": {
-    "message": "all",
-    "description": "Text for check all"
-  },
-  "popup_check_none": {
-    "message": "none",
-    "description": "Text for check none"
-  },
-  "popup_download_selected": {
-    "message": "DOWNLOAD SELECTED",
-    "description": "Download selected button text"
-  },
-  "popup_download": {
-    "message": "DOWNLOAD",
-    "description": "Download button text"
-  },
-  "popup_download_starting": {
-    "message": "Please wait...",
-    "description": "Wait for download button text"
-  },
-  "popup_preferred_quality_hint": {
-    "message": "Preferred quality:",
-    "description": "Preferred media quality as a hint for automatic download."
-  },
-  "popup_preferred_quality": {
-    "message": "Preferred media quality",
-    "description": "Preferred media quality select label"
-  },
-  "popup_one_click": {
-    "message": "Download in one click",
-    "description": "Download in one click checkbox label"
-  },
-  "popup_no_media_found": {
-    "message": "No media was found, sorry.",
-    "description": "Message shows in popup if there is no media to display."
-  },
-  "popup_how_many_media_found": {
-    "message": "$number$ media found",
-    "description": "Text saying how many media was found.",
-    "placeholders": {
-      "number": {
-        "content": "$1",
-        "example": 42
+   "1_messenger_text": {
+      "description": "facebook first time description",
+      "message": "\u003Cb>More than one feature... It is the Sidebar. \u003C/b>\u003Cbr>Facebook Messenger, Telegram, Skype and Zalo are all integrated on the sidebar for your extra convenience. Go chat now!"
+   },
+   "1_skype_text": {
+      "description": "skype first time description",
+      "message": "\u003Cb>More than one feature... It is the Sidebar. \u003C/b>\u003Cbr>Facebook Messenger, Telegram, Skype and Zalo are all integrated on the sidebar for your extra convenience. Go chat now!"
+   },
+   "1_tele_text": {
+      "description": "tele first time description",
+      "message": "\u003Cb>More than one feature... It is the Sidebar. \u003C/b>\u003Cbr>Facebook Messenger, Telegram, Skype and Zalo are all integrated on the sidebar for your extra convenience. Go chat now!"
+   },
+   "1_translate_text": {
+      "description": "translate first time description",
+      "message": "\u003Cb>Find languages hard? Let sidebar help you\u003C/b> \u003Cbr>Open Google Translate in sidebar window to translate languages 2x faster. Just one click to access, no need to switch between multiple tabs."
+   },
+   "1_youtube_text": {
+      "description": "youtube first time description",
+      "message": "\u003Cb>Smooth like sidebar - Stay groovy with music\u003C/b> \u003Cbr>Add YouTube to the sidebar to find and play your favorite music videos right away! "
+   },
+   "1_zalo_text": {
+      "description": "zalo first time description",
+      "message": "\u003Cb>More than one feature... It is the Sidebar. \u003C/b>\u003Cbr>Facebook Messenger, Telegram, Skype and Zalo are all integrated on the sidebar for your extra convenience. Go chat now!"
+   },
+   "appDescription": {
+      "message": "Helps you download video, audio files instantly from any website."
+   },
+   "appName": {
+      "message": "Download video & audio"
+   },
+   "cancel_button_text": {
+      "description": "onboarding cancel button text",
+      "message": "Skip"
+   },
+   "chatgpt_desc_text": {
+      "message": "\u003Cb>Catch up with the AI trend with Cốc Cốc Sidebar and ChatGPT\u003C/b>\u003Cbr>With a click, you can immediately meet the intelligent virtual chatbot in the Sidebar. Not only that, you can surf the web and chat with ChatGPT at the same time."
+   },
+   "chatgpt_title_text": {
+      "message": ""
+   },
+   "darkmode_instruction_title": {
+      "description": "darkmode instruction title",
+      "message": "How to enable Dark Mode"
+   },
+   "downloading_word": {
+      "description": "Just a single word",
+      "message": "Downloading"
+   },
+   "error_text": {
+      "message": "Error"
+   },
+   "instant_actions_download_options": {
+      "description": "Options text for instant download button",
+      "message": "Show Download button for YouTube on search engine result pages"
+   },
+   "instant_actions_download_tooltip": {
+      "description": "Tooltip for download in one click button",
+      "message": "Download YouTube video in one click"
+   },
+   "login_point_onboard_title": {
+      "description": "point login title text",
+      "message": "Lots of rewards are awaiting you on Cốc Cốc Points"
+   },
+   "login_popup_text": {
+      "description": "point description loged in",
+      "message": "\u003Cb>Once you log in to your Cốc Cốc Account,\u003C/b> you will automatically become a member of Cốc Cốc Points and receive points when using our browser. Access Cốc Cốc Points on sidebar now to redeem your points for rewards."
+   },
+   "media_fields_type_audio": {
+      "description": "Audio media type",
+      "message": "Audio"
+   },
+   "media_fields_type_no_watermark_video": {
+      "description": "No watermark video media type",
+      "message": "Video (no watermark)"
+   },
+   "media_fields_type_stream": {
+      "description": "Stream media type",
+      "message": "Stream"
+   },
+   "media_fields_type_subtitles": {
+      "description": "Subtitles media title",
+      "message": "Subtitles"
+   },
+   "media_fields_type_video": {
+      "description": "Video media type",
+      "message": "Video"
+   },
+   "mobile_button": {
+      "description": "Mobile button text",
+      "message": "Download file to your phone"
+   },
+   "mobile_error_text": {
+      "description": "Text for error in mobile transfer panel",
+      "message": "Media is not available."
+   },
+   "mobile_instruction_1": {
+      "description": "Text 2 in mobile panel",
+      "message": "Step 1: Open Cốc Cốc Mobile"
+   },
+   "mobile_instruction_2": {
+      "description": "Text 3 in mobile panel",
+      "message": "Step 2: Scan the QR Code"
+   },
+   "mobile_panel_footer": {
+      "description": "Text 4 in mobile panel",
+      "message": "You haven't downloaded Cốc Cốc Mobile yet?"
+   },
+   "mobile_panel_header": {
+      "description": "Text 1 in mobile panel",
+      "message": "Download instructions"
+   },
+   "not_login_point_onboard_title": {
+      "description": "point not login title text",
+      "message": "Are you ready to Surf web – Earn points – Get rewards?"
+   },
+   "not_login_popup_text": {
+      "description": "point description not loged in",
+      "message": "\u003Cb>All you need to do is log in to Cốc Cốc Account\u003C/b> and earn 100 points instantly. Redeem your points for valuable gifts."
+   },
+   "onboard_title": {
+      "description": "Onboarding title",
+      "message": "Suggestion from Cốc Cốc"
+   },
+   "onboarding_feature_image": {
+      "message": "images/pointImage_en.png"
+   },
+   "onboarding_new_mp_abort": {
+      "message": "Skip"
+   },
+   "onboarding_new_mp_complete": {
+      "message": "Got it"
+   },
+   "onboarding_new_mp_desc_1": {
+      "message": "You can download those files for free, 8 times faster than other browsers"
+   },
+   "onboarding_new_mp_desc_2": {
+      "message": "You can watch the video and use other apps at the same time"
+   },
+   "onboarding_new_mp_desc_3": {
+      "message": "Thanks to Cốc Cốc's automatic adblock, you can enjoy videos without being disturbed "
+   },
+   "onboarding_new_mp_next": {
+      "message": "Next"
+   },
+   "onboarding_new_mp_title_1": {
+      "message": "Download videos, audio or subtitles"
+   },
+   "onboarding_new_mp_title_2": {
+      "message": "Pin video in a floating window"
+   },
+   "onboarding_new_mp_title_3": {
+      "message": "Watch videos without ads"
+   },
+   "options_dark_theme": {
+      "description": "Enable dark theme",
+      "message": "Enable dark theme for Savior"
+   },
+   "options_min_stream_size": {
+      "description": "Min stream size label",
+      "message": "Ignore files smaller than"
+   },
+   "options_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Download in one click"
+   },
+   "options_prefer_last_quality": {
+      "description": "Prefer last quality as initial quality selector checkbox label",
+      "message": "Remember last chosen media quality"
+   },
+   "options_save_and_close": {
+      "description": "Save and close button",
+      "message": "Save and close"
+   },
+   "options_show_3gp": {
+      "description": "Show 3gp checkbox in options",
+      "message": "Show 3gp format"
+   },
+   "options_show_detach_button": {
+      "description": "Show detach button",
+      "message": "Show Pin video button on media panel"
+   },
+   "options_show_on_page_buttons": {
+      "description": "Show on page controls label",
+      "message": "Show media panel beside downloadable media files"
+   },
+   "options_title": {
+      "description": "Options page title",
+      "message": "Options"
+   },
+   "page_action_title": {
+      "description": "Tooltip on pageAction hover",
+      "message": "Download video & audio"
+   },
+   "pip_failed_to_find": {
+      "description": "Notice to show when we failed to locate player on the page.",
+      "message": "Could not detach this video"
+   },
+   "pip_please_wait": {
+      "description": "When PiP doing it's magic",
+      "message": "Detaching..."
+   },
+   "pip_tour_content": {
+      "description": "PiP tour text - ask the user to try our product",
+      "message": "You can download audio files into an \u003Cstrong>mp3\u003C/strong> separately from the video."
+   },
+   "pip_tour_title": {
+      "description": "PiP tour title",
+      "message": "Download mp3 in just one click"
+   },
+   "pip_tour_try_btn": {
+      "description": "PiP tour try now button",
+      "message": "Got it, let's try"
+   },
+   "play_now_click_to_play": {
+      "description": "Promote text in a tooltip",
+      "message": "Click \u003Ca>Play now\u003C/a> to watch downloaded video in a floating window, even when you close the tab."
+   },
+   "play_now_do_not_show": {
+      "description": "Do not show tooltip again text",
+      "message": "Do not show again"
+   },
+   "play_now_per_second": {
+      "description": "A 'second' name",
+      "message": "sec"
+   },
+   "play_now_play_now": {
+      "description": "Play now button title",
+      "message": "Play now"
+   },
+   "play_now_received_from": {
+      "description": "A 'from' word",
+      "message": "from"
+   },
+   "popup_1_darkmode_morning_text": {
+      "description": "darkmode description text for morning",
+      "message": "Did you know? \u003Cb>Dark Mode\u003C/b> reduces screen brightness and relieves your eye strain."
+   },
+   "popup_1_darkmode_night_text": {
+      "description": "darkmode description text for night",
+      "message": "Hello night owl! \u003Cb>Dark Mode\u003C/b> is here for your eye comfort."
+   },
+   "popup_2_darkmode_action_text": {
+      "description": "darkmode popup 2 action button text",
+      "message": "Continue with Dark Mode"
+   },
+   "popup_2_darkmode_cancel_text": {
+      "description": "darkmode popup 2 cancel button text",
+      "message": "Back to Light Mode"
+   },
+   "popup_2_darkmode_text": {
+      "description": "darkmode description text for night",
+      "message": "Your browser has been switched to Dark Mode."
+   },
+   "popup_3_darkmode_text": {
+      "description": "darkmod popup 3 description text",
+      "message": "To enable \u003Cb>Dark Mode\u003C/b>, click \u003Cspan class='green'>[Coc Coc Logo] > Settings > Dark Mode\u003C/span> and \u003Cspan class='green'>switch on\u003C/span>"
+   },
+   "popup_check_all": {
+      "description": "Text for check all",
+      "message": "all"
+   },
+   "popup_check_label": {
+      "description": "Label to check all or none",
+      "message": "Check:"
+   },
+   "popup_check_none": {
+      "description": "Text for check none",
+      "message": "none"
+   },
+   "popup_download": {
+      "description": "Download button text",
+      "message": "Download"
+   },
+   "popup_download_failed": {
+      "description": "Message is shown if download could not be started.",
+      "message": "Download has failed to start. Try with different format or quality."
+   },
+   "popup_download_selected": {
+      "description": "Download selected button text",
+      "message": "DOWNLOAD SELECTED"
+   },
+   "popup_download_starting": {
+      "description": "Wait for download button text",
+      "message": "Please wait..."
+   },
+   "popup_how_many_media_found": {
+      "description": "Text saying how many media was found.",
+      "message": "$number$ media found",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": 42
+         }
       }
-    }
-  },
-  "popup_download_failed": {
-    "message": "Download has failed to start. Try with different format or quality.",
-    "description": "Message is shown if download could not be started."
-  },
-  "popup_welcome_title": {
-    "message": "Downloadable media found!",
-    "description": "Welcome popup title"
-  },
-  "popup_welcome_text": {
-    "message": "If you see this icon in the address-bar, this means that there is media content on the page (like music, video clips or movies), which can be downloaded.",
-    "description": "Welcome popup text"
-  },
-  "popup_welcome_button": {
-    "message": "Try it now!",
-    "description": "Try it now button text"
-  },
-  "popup_starting_download": {
-    "message": "Starting download",
-    "description": "Starting one-click download text"
-  },
-  "mobile_button": {
-    "message": "Mobile",
-    "description": "Mobile button text"
-  },
-  "popup_pip_button": {
-    "message": "Pin",
-    "description": "Pip button text"
-  },
-  "popup_sound_only": {
-    "message": "(sound only)",
-    "description": "Sound only text for quality selection"
-  },
-  "pip_failed_to_find": {
-    "message": "Could not detach this video",
-    "description": "Notice to show when we failed to locate player on the page."
-  },
-  "pip_please_wait": {
-    "message": "Detaching...",
-    "description": "When PiP doing it's magic"
-  },
-  "ql_high": {
-    "message": "High",
-    "description": "High media quality title"
-  },
-  "ql_medium": {
-    "message": "Medium",
-    "description": "Medium media quality title"
-  },
-  "ql_low": {
-    "message": "Low",
-    "description": "Low media quality title"
-  },
-  "media_fields_type_audio": {
-    "message": "Audio",
-    "description": "Audio media type"
-  },
-  "media_fields_type_video": {
-    "message": "Video",
-    "description": "Video media type"
-  },
-  "media_fields_type_stream": {
-    "message": "Stream",
-    "description": "Stream media type"
-  },
-  "media_fields_type_subtitles": {
-    "message": "Subtitles",
-    "description": "Subtitles media title"
-  },
-  "page_action_title": {
-    "message": "Downloadable media found!",
-    "description": "Tooltip on pageAction hover"
-  },
-
-  "pip_tour_title": {
-    "message": "Download mp3 in just one click",
-    "description": "PiP tour title"
-  },
-  "pip_tour_content": {
-    "message": "You can download audio files into an <strong>mp3</strong> separately from the video.",
-    "description": "PiP tour text - ask the user to try our product"
-  },
-  "pip_tour_try_btn": {
-    "message": "Got it, let's try",
-    "description": "PiP tour try now button"
-  },
-
-  "subtitles_auto_translated": {
-    "message": "(auto translated)",
-    "description": "Auto translated subtitles"
-  },
-  "subtitles_lang_en": {
-    "message": "English",
-    "description": "English"
-  },
-  "subtitles_lang_vi": {
-    "message": "Vietnamese",
-    "description": "Vietnamese"
-  },
-  "subtitles_lang_fr": {
-    "message": "French",
-    "description": "French"
-  },
-  "subtitles_lang_ru": {
-    "message": "Russian",
-    "description": "Russian"
-  },
-  "subtitles_lang_ko": {
-    "message": "Korean",
-    "description": "Korean"
-  },
-  "subtitles_lang_ja": {
-    "message": "Japanese",
-    "description": "Japanese"
-  },
-  "play_now_play_now": {
-    "message": "Play now",
-    "description": "Play now button title"
-  },
-  "play_now_click_to_play": {
-    "message": "Click to <b>Play now</b> to watch downloading video now!",
-    "description": "Promote text in a tooltip"
-  },
-  "play_now_do_not_show": {
-    "message": "Do not show again",
-    "description": "Do not show tooltip again text"
-  },
-  "play_now_per_second": {
-    "message": "sec",
-    "description": "A 'second' name"
-  },
-  "play_now_received_from": {
-    "message": "from",
-    "description": "A 'from' word"
-  },
-  "mobile_panel_header": {
-    "message": "Download video on your mobile",
-    "description": "Text 1 in mobile panel"
-  },
-  "mobile_instruction_1": {
-    "message": "Open Cốc Cốc Mobile",
-    "description": "Text 2 in mobile panel"
-  },
-  "mobile_instruction_2": {
-    "message": "Scan QR code",
-    "description": "Text 3 in mobile panel"
-  },
-  "mobile_panel_footer": {
-    "message": "Don't have Cốc Cốc Browser on mobile?",
-    "description": "Text 4 in mobile panel"
-  },
-  "mobile_error_text": {
-    "message": "Please try again later.",
-    "description": "Text for error in mobile transfer panel"
-  }
+   },
+   "popup_no_media_found": {
+      "description": "Message shows in popup if there is no media to display.",
+      "message": "No media was found, sorry."
+   },
+   "popup_one_click": {
+      "description": "Download in one click checkbox label",
+      "message": "Download in one click"
+   },
+   "popup_pip_button": {
+      "description": "Pip button text",
+      "message": "Pin video"
+   },
+   "popup_preferred_quality": {
+      "description": "Preferred media quality select label",
+      "message": "Preferred media quality"
+   },
+   "popup_preferred_quality_hint": {
+      "description": "Preferred media quality as a hint for automatic download.",
+      "message": "Quality:"
+   },
+   "popup_sound_only": {
+      "description": "Sound only text for quality selection",
+      "message": "(sound only)"
+   },
+   "popup_starting_download": {
+      "description": "Starting one-click download text",
+      "message": "Starting download"
+   },
+   "popup_title": {
+      "description": "Title of the omnibox popup",
+      "message": "Download media files"
+   },
+   "popup_unpip_button": {
+      "description": "Unpip button text",
+      "message": "Unpin video"
+   },
+   "popup_welcome_button": {
+      "description": "Try it now button text",
+      "message": "Try it now!"
+   },
+   "popup_welcome_text": {
+      "description": "Welcome popup text",
+      "message": "If you see this icon in the address-bar, this means that there is media content on the page (like music, video clips or movies), which can be downloaded."
+   },
+   "popup_welcome_title": {
+      "description": "Welcome popup title",
+      "message": "Downloadable media found!"
+   },
+   "promote_serp_btn_check_result": {
+      "description": "Button check results",
+      "message": "Check results in Cốc Cốc"
+   },
+   "promote_serp_btn_settings": {
+      "description": "Button browser settings",
+      "message": "Search engine settings"
+   },
+   "promote_serp_desc": {
+      "description": "SERP promotion description text",
+      "message": "Dear CocCoc-er, please try to use our search engine for this query and report problems if any – it will be a great help in improving our search quality."
+   },
+   "ql_high": {
+      "description": "High media quality title",
+      "message": "High"
+   },
+   "ql_low": {
+      "description": "Low media quality title",
+      "message": "Low"
+   },
+   "ql_medium": {
+      "description": "Medium media quality title",
+      "message": "Medium"
+   },
+   "quality_4k_qfhd": {
+      "message": "4K QFHD"
+   },
+   "quality_4k_uhd": {
+      "message": "4K UHD"
+   },
+   "quality_8k_uhd": {
+      "message": "8K UHD"
+   },
+   "quality_fhd": {
+      "message": "Full HD"
+   },
+   "quality_hd": {
+      "message": "HD"
+   },
+   "quality_medium": {
+      "message": "Medium"
+   },
+   "quality_mobile": {
+      "message": "Mobile"
+   },
+   "quality_qhd": {
+      "message": "Quad HD"
+   },
+   "quality_small": {
+      "message": "Small"
+   },
+   "quality_standard": {
+      "message": "Standard"
+   },
+   "subtitles_auto_translated": {
+      "description": "Auto translated subtitles",
+      "message": "(auto translated)"
+   },
+   "subtitles_lang_de": {
+      "description": "German",
+      "message": "German"
+   },
+   "subtitles_lang_en": {
+      "description": "English",
+      "message": "English"
+   },
+   "subtitles_lang_fr": {
+      "description": "French",
+      "message": "French"
+   },
+   "subtitles_lang_ja": {
+      "description": "Japanese",
+      "message": "Japanese"
+   },
+   "subtitles_lang_ko": {
+      "description": "Korean",
+      "message": "Korean"
+   },
+   "subtitles_lang_ru": {
+      "description": "Russian",
+      "message": "Russian"
+   },
+   "subtitles_lang_vi": {
+      "description": "Vietnamese",
+      "message": "Vietnamese"
+   },
+   "subtitles_lang_zh_Hans": {
+      "description": "Chinese",
+      "message": "Chinese"
+   },
+   "try_now_button_text": {
+      "description": "onboarding try button default text",
+      "message": "Try now"
+   },
+   "try_now_point_login_button_text": {
+      "description": "point try now button text loged in",
+      "message": "Try now"
+   },
+   "try_now_point_not_login_button_text": {
+      "description": "point try now button text not loged in",
+      "message": "Log in now"
+   },
+   "turn_off_light": {
+      "description": "Button turn light off",
+      "message": "Lights off"
+   },
+   "turn_on_light": {
+      "description": "Button turn light on",
+      "message": "Lights on"
+   },
+   "understand_button_text": {
+      "description": "instruction action button text",
+      "message": "OK, got it!"
+   },
+   "widget_download_box_title": {
+      "description": "",
+      "message": "Select to download"
+   },
+   "widget_download_tooltip": {
+      "description": "Download button text",
+      "message": "Download videos, audio or subtitles"
+   },
+   "widget_downloading_media": {
+      "description": "Message shows in widget when media is downloading",
+      "message": "Media Downloading"
+   },
+   "widget_hide_panel": {
+      "message": "Hide this panel"
+   },
+   "widget_no_media_found": {
+      "description": "Message shows in popup if there is no media to display.",
+      "message": "No media found"
+   },
+   "widget_other_options": {
+      "description": "Message shows in widget when user hover on three dots button",
+      "message": "Other features"
+   },
+   "widget_panel_hidden": {
+      "message": "Panel hidden (Reload page to show this panel)"
+   }
 }
